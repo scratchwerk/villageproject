@@ -12,6 +12,8 @@ public class VillageMember {
 	private String email;
 	private String username;
 	private String password;
+	private Date dateJoined;
+	private Date lastModified;
 	
 	
 	
@@ -64,6 +66,19 @@ public class VillageMember {
 		this.password = password;
 	}
 	
+	
+	public Date getDateJoined() {
+		return dateJoined;
+	}
+	public void setDateJoined(Date dateJoined) {
+		this.dateJoined = dateJoined;
+	}
+	public Date getLastModified() {
+		return lastModified;
+	}
+	public void setLastModified(Date lastModified) {
+		this.lastModified = lastModified;
+	}
 	//Request that a new relationship be added
 	public int requestRelationship(VillageMember vm, int relationshipType){
 		Relationship relationship = new Relationship(this, vm, relationshipType);
