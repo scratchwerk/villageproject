@@ -2,6 +2,7 @@ package com.scratchwerk.vp.models;
 
 public class Comment {
 
+	private int id;
 	private int stars = 0;
 	private int commenterID;
 	private int childID;
@@ -44,6 +45,12 @@ public class Comment {
 	}
 	public void setChildVisible(boolean childVisible) {
 		this.childVisible = childVisible;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	
