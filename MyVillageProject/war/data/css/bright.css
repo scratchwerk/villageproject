@@ -7,46 +7,46 @@
 ----------------------------------------------------------------------------- */
 label > span:before,
 .wpcf7-checkbox .wpcf7-list-item-label:before,
-.wpcf7-radio .wpcf7-list-item-label:before { background-image: url(../img/bright/input.png); }
-.yaselect-current:after                    { background-image: url(../img/bright/arrow.png); }
+.wpcf7-radio .wpcf7-list-item-label:before { background-image: url(/resources/input.png); }
+.yaselect-current:after                    { background-image: url(/resources/arrow.png); }
 
-#top                                       { background-image: url(../img/bright/top-bg.png); }
-#search input[type="submit"]               { background-image: url(../img/bright/search.png); }
-#nav-main li ul li                         { background-image: url(../img/bright/bg.gif); }
-#main                                      { background-image: url(../img/bright/bg.gif); }
-#bottom                                    { background-image: url(../img/bright/bottom-bg.png); }
+#top                                       { background-image: url(/resources/top-bg.png); }
+#search input[type="submit"]               { background-image: url(/resources/search.png); }
+#nav-main li ul li                         { background-image: url(/resources/bg.gif); }
+#main                                      { background-image: url(/resources/bg.gif); }
+#bottom                                    { background-image: url(/resources/bottom-bg.png); }
 
-section.box .close                         { background-image: url(../img/bright/close.png); }
-.post .title:before                        { background-image: url(../img/bright/post-formats-desktop.png); }
-.post .content pre                         { background-image: url(../img/bright/code.gif); }
-.post .meta li                             { background-image: url(../img/bright/meta.png); }
-.items .item .image .fancybox .hover       { background-image: url(../img/bright/magnifier.png); }
+section.box .close                         { background-image: url(/resources/close.png); }
+.post .title:before                        { background-image: url(/resources/post-formats-desktop.png); }
+.post .content pre                         { background-image: url(/resources/code.gif); }
+.post .meta li                             { background-image: url(/resources/meta.png); }
+.items .item .image .fancybox .hover       { background-image: url(/resources/magnifier.png); }
 .pagination .left,
 .pagination .right,
 .pagination .prev,
-.pagination .next                          { background-image: url(../img/bright/pagination-small.png); }
-.flexslider .flex-direction-nav a          { background-image: url(../img/bright/slider-nav.png); }
+.pagination .next                          { background-image: url(/resources/pagination-small.png); }
+.flexslider .flex-direction-nav a          { background-image: url(/resources/slider-nav.png); }
 
-.widget-search input[type="submit"]        { background-image: url(../img/bright/search.png) !important; }
-.widget-twitter li                         { background-image: url(../img/bright/twitter.png); }
+.widget-search input[type="submit"]        { background-image: url(/resources/search.png) !important; }
+.widget-twitter li                         { background-image: url(/resources/twitter.png); }
 
 @media only screen and (max-width: 979px) { /* <= Tablet */
-	.post .title:before                    { background-image: url(../img/bright/post-formats-tablet.png); }
+	.post .title:before                    { background-image: url(/resources/post-formats-tablet.png); }
 }
 
 @media only screen and (max-width: 739px) { /* Mobile */
-	#top h1:after                          { background-image: url(../img/bright/arrow.png); }
-	#nav-main li.sub > a:after             { background-image: url(../img/bright/arrow.png); }
+	#top h1:after                          { background-image: url(/resources/arrow.png); }
+	#nav-main li.sub > a:after             { background-image: url(/resources/arrow.png); }
 	
-	.post .title:before                    { background-image: url(../img/bright/post-formats-mobile.png); }
+	.post .title:before                    { background-image: url(/resources/post-formats-mobile.png); }
 	.pagination .left,
 	.pagination .right,
 	.pagination .prev,
-	.pagination .next                      { background-image: url(../img/bright/pagination-big.png); }
+	.pagination .next                      { background-image: url(/resources/pagination-big.png); }
 }
 
 @media only screen and (max-width: 319px) { /* <= Mini */
-	.post .title:before                    { background-image: url(../img/bright/post-formats-mini.png); }
+	.post .title:before                    { background-image: url(/resources/post-formats-mini.png); }
 }
 
 /* =Background colors

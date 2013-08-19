@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 	// Default configuration
 	conf = $.extend({}, {
 		templatePath:         '.',
-		timThumbPath:         'data/php/timthumb.php',
+		timThumbPath:         '/resources/timthumb.php',
 		timThumbQuality:      90,
 		flexsliderOptions:    {
 			animation: 'slide',
@@ -229,9 +229,9 @@ jQuery(document).ready(function($) {
 	var selfhosted = featured.filter('audio[id], video[id]');
 	featured.responsiveVideo();
 	if (selfhosted.length > 0) {
-		$.getScript(conf.templatePath+'/data/js/mejs.min.js', function() {
+		$.getScript('/resources/mejs.min.js', function() {
 			selfhosted.mediaelementplayer({
-				pluginPath:  conf.templatePath+'/data/mejs/',
+				pluginPath:  conf.templatePath+'/resources/',
 				videoWidth:  '100%',
 				videoHeight: '100%',
 				audioWidth:  '100%',
@@ -371,7 +371,7 @@ jQuery(document).ready(function($) {
 	// Twitter
 	$('.widget-twitter[data-username]').each(function() {
 		var _this       = this;
-		$.getJSON(conf.templatePath+'/data/php/twitter.php', {
+		$.getJSON(conf.templatePath+'/resources/twitter.php', {
 			username:         $(this).data('username'),
 			include_retweets: $(this).getData('include-retweets', true),
 			exclude_replies:  $(this).getData('exclude-replies', false),

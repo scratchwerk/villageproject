@@ -14,7 +14,7 @@
 	
 	<context:component-scan base-package="com.scratchwerk.myvp.actions" />
  
- 	<mvc:resources location="/" mapping="/data/css/**"/>
+ 	<mvc:resources mapping="/resources/**" location="/data/css/, /data/js/, /data/img/bright/, /data/img/fancybox/, /data/img/mejs/, /content/, /content/regenesis/" cache-period="0" />
  	<mvc:annotation-driven />
  	
 	<bean

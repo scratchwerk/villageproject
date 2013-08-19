@@ -160,7 +160,7 @@
 }
 
 .no-svg .mejs-controls .mejs-button button { 
-	background-image: url(../img/mejs/controls.png);
+	background-image: url(/resources/controls.png);
 }
 
 /* :focus for accessibility */
