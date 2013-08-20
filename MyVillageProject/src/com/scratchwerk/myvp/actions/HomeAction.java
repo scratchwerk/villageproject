@@ -9,7 +9,9 @@ public class HomeAction {
 	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String homepage(ModelMap model) {
- 		return "index";
+ 		
+		model.addAttribute("name", "Ronnie K");
+		return "index";
  	}
 	
 	@RequestMapping(value="/{cityId}", method = RequestMethod.GET)
