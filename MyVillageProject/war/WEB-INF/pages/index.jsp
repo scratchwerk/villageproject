@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
 
@@ -7,41 +9,41 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-		<meta name="description" content="Responsive website template by kubasto" />
-		<meta name="msapplication-TileImage" content="data/img/tile/w.png" />
+		<meta name="description" content="MyVillage Project community uplift" />
+		<meta name="msapplication-TileImage" content="<c:url value="/resources/w.png"/>" />
 		<meta name="msapplication-TileColor" content="#089bc3" />
 
-		<link rel="shortcut icon" href="data/img/favicon/w.png" />
+		<link rel="shortcut icon" href="<c:url value="/resources/w.png"/>" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rokkitt:400,700" />
-		<link rel="stylesheet" href="data/css/fancybox.css" />
-		<link rel="stylesheet" href="data/css/flexslider.css" />
-		<link rel="stylesheet" href="data/css/mejs.css" />
-		<link rel="stylesheet" href="data/css/tipsy.css" />
-		<link rel="stylesheet" href="data/css/base.css" />
-		<link rel="stylesheet" href="data/css/structure.css" />
-		<link rel="stylesheet" href="data/css/parts.css" />
-		<link rel="stylesheet" href="data/css/widgets.css" />
-		<link rel="stylesheet" href="data/css/bright.css" />
-		<link rel="stylesheet" href="data/css/color.css" />
+		<link rel="stylesheet" href="<c:url value="/resources/fancybox.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/flexslider.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/mejs.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/tipsy.css"/>" />
+		<link rel="stylesheet" href="<c:url value="/resources/base.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/structure.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/parts.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/widgets.css" />" />
+		<link rel="stylesheet" href="<c:url value="/resources/bright.css"/>" />
+		<link rel="stylesheet" href="<c:url value="/resources/color.css"/>" />
 
 		<!--[if lte IE 9]>
-		<link rel="stylesheet" href="data/css/ie9.css" />
+		<link rel="stylesheet" href="<c:url value="/resources/ie9.css"/>" />
 		<![endif]-->
 		<!--[if lte IE 8]>
-		<link rel="stylesheet" href="data/css/ie8.css" />
-		<script src="data/js/html5.js"></script>
-		<script src="data/js/respond.min.js"></script>
+		<link rel="stylesheet" href="<c:url value="/resources/ie8.css"/>" />
+		<script src="<c:url value="/resources/html5.js"/>"></script>
+		<script src="<c:url value="/resources/respond.min.js"/>"></script>
 		<![endif]-->
 
-		<script src="data/js/jquery.min.js"></script>
-		<script src="data/js/jquery.cookie.min.js"></script>
-		<script src="data/js/jquery.fancybox.min.js"></script>
-		<script src="data/js/jquery.flexslider.min.js"></script>
-		<script src="data/js/jquery.masonry.min.js"></script>
-		<script src="data/js/jquery.tipsy.min.js"></script>
-		<script src="data/js/jquery.yaselect.min.js"></script>
-		<script src="data/js/website.config.js"></script>
-		<script src="data/js/website.min.js"></script>
+		<script src="<c:url value="/resources/jquery.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.cookie.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.fancybox.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.flexslider.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.masonry.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.tipsy.min.js"/>"></script>
+		<script src="<c:url value="/resources/jquery.yaselect.min.js"/>"></script>
+		<script src="<c:url value="/resources/website.config.js"/>"></script>
+		<script src="<c:url value="/resources/website.min.js"/>"></script>
 
 		<title>MyVillage Project</title>
 
@@ -77,18 +79,20 @@
 					<nav id="nav-top" class="clear left">
 						<ul>
 							<li>
-								<a href="http://themeforest.net/user/kubasto/portfolio/?ref=kubasto" title="My other templates">Jacksonville</a>
+								<a href="#" title="City">Select a city</a>
 								<ul>
-									<li><a href="http://themes.kubasto.com/template/time/" title="Fast Blog">Tampa</a></li>
-									<li><a href="http://themes.kubasto.com/template/fastblog/" title="Fast Blog">Orlando</a></li>
-									<li><a href="http://themes.kubasto.com/template/stuff/" title="Stuff">Miami</a></li>
-									<li><a href="http://themes.kubasto.com/simplemobile/" title="Simple Mobile">Ft. Lauderdale</a></li>
+									<li><a href="/1">Jacksonville</a></li>
+									<li><a href="/2">Gainesville</a></li>
+									<li><a href="/3">Tampa</a></li>
+									<li><a href="/4">Orlando</a></li>
+									<li><a href="/5">Miami</a></li>
+									<li><a href="/6">Ft. Lauderdale</a></li>
 								</ul>
 							</li>
-							<li><a href="http://themeforest.net/user/kubasto/?ref=kubasto" title="My profile">My profile</a></li>
-							<li><a href="about.html" title="About">About</a></li>
-							<li><a href="contact.html" title="Contact">Contact</a></li>
-							<li class="right"><a href="admin/extra_login.html" title="Login">Hello empty!</a></li>
+							<li><a href="/user/profile" title="My profile">My profile</a></li>
+							<li><a href="/about/about" title="About">About</a></li>
+							<li><a href="/about/contact" title="Contact">Contact</a></li>
+							<li class="right"><a href="/user/login">Hello Ronnie!</a></li>
 						</ul>
 					</nav>
 					<!-- // Top navigation -->
@@ -108,7 +112,7 @@
 					<hgroup class="alpha">
 						<h1 class="alpha vertical">
 							<span>
-								<a href="index.html" title="Website"><img src="content/VillageProject.png" width="350px" height="75px"alt="" /></a>
+								<a href="/" title="MyVillage Project"><img src="content/VillageProject.png" width="350px" height="75px"alt="" /></a>
 							</span>
 						</h1>
 					</hgroup>
@@ -123,100 +127,24 @@
 				<!-- Main navigation -->
 				<nav id="nav-main" class="clear left">
 					<ul>
-						<li><a href="index.html" title="Home">Home</a></li>
+						<li><a href="/" title="Home">Home</a></li>
 						<li>
 							<a title="Features">News</a>
 							<ul>
-								<li><a href="photos.html" title="Photos">Photos</a></li>
-								<li><a href="articles.html" title="Articles">Articles</a></li>
-								<li><a href="awards.html" title="Awards">Awards</a></li>
+								<li><a href="/news/view" title="Articles">Articles</a></li>
+								<li><a href="/news/photos" title="Photos">Photos</a></li>								
+								<!--<li><a href="/news/awards" title="Awards">Awards</a></li>-->
 							</ul>
 						</li>
-						<li>
-							<a href="about.html" title="Portfolios">MyVillage</a>
-							<!--<ul>
-								<li>
-									<a href="portfolio_big_one.html" title="big">Family</a>
-									<ul>
-										<li><a href="portfolio_big_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_big_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_medium_one.html" title="medium">Church</a>
-									<ul>
-										<li><a href="portfolio_medium_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_medium_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_small_one.html" title="small">Mentoring</a>
-									<ul>
-										<li><a href="portfolio_small_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_small_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_tiny_one.html" title="tiny">Clubs</a>
-									<ul>
-										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-                                <li>
-									<a href="portfolio_tiny_one.html" title="tiny">Events</a>
-									<ul>
-										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-							</ul>-->
-						</li>
-						<!--<li>
-							<a href="donate.html" title="Donate">Donate</a>
-						</li>-->
-						<li>
-							<a title="Events">Events</a>
-							<ul>
-								<li><a href="events.html" title="full width slider">One-Time Events</a></li>
-								<li><a href="events.html" title="slider + two banners">Clubs</a></li>
-								<li><a href="events.html" title="slider + text">Support Services</a></li>
-							</ul>
-						</li>
-						<li><a href="newsletters.html" title="Blog">ReGenesis Newsletter</a></li>
-						<!--<li>
-							<a title="Templates">Store</a>
-							<ul>
-								<li>
-									<a href="index.html" title="front page">front page</a>
-									<ul>
-										<li><a href="index.html" title="first">first</a></li>
-										<li><a href="index_second.html" title="second">second</a></li>
-										<li><a href="index_third.html" title="third">third</a></li>
-										<li><a href="index_fourth.html" title="fourth">fourth</a></li>
-									</ul>
-								</li>
-								<li><a href="full_width.html" title="full width">full width</a></li>
-								<li><a href="left_sidebar.html" title="left sidebar">left sidebar</a></li>
-								<li><a href="right_sidebar.html" title="right sidebar">right sidebar</a></li>
-								<li>
-									<a href="portfolio_item_image.html" title="portfolio item">portfolio item</a>
-									<ul>
-										<li><a href="portfolio_item_image.html" title="image">image</a></li>
-										<li><a href="portfolio_item_slider.html" title="slider">slider</a></li>
-										<li><a href="portfolio_item_video.html" title="video">video</a></li>
-									</ul>
-								</li>
-								<li><a href="post.html" title="post">post</a></li>
-								<li><a href="search_results.html" title="post">search results</a></li>
-								<li><a href="no_menu.html" title="no menu page">no menu page</a></li>
-								<li><a href="contact.html" title="contact">contact</a></li>
-							</ul>
-						</li>-->
-						<li><a href="contact.html" title="About">Contact Us</a></li>
+						<li><a href="/myvillage/home" title="Portfolios">MyVillage</a></li>
+						<!--<li><a href="donate.html" title="Donate">Donate</a></li>-->
+						<li><a href="Events">Events</a></li>
+						<li><a href="/news/regenesis" title="Newsletter">ReGenesis Newsletter</a></li>
+						<!--<li><a title="Templates">Store</a></li>-->
+						<li><a href="/about/contact" title="Contact">Contact Us</a></li>
 					</ul>
 				</nav>
-<!-- // Main navigation -->
+				<!-- // Main navigation -->
 
 				<!-- Content -->
 				<section id="content" class="alpha">

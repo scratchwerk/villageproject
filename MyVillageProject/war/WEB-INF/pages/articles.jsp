@@ -9,7 +9,7 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-		<meta name="description" content="Responsive website template by kubasto" />
+		<meta name="description" content="MyVillage Project community uplift" />
 		<meta name="msapplication-TileImage" content="<c:url value="/resources/w.png"/>" />
 		<meta name="msapplication-TileColor" content="#089bc3" />
 
@@ -81,10 +81,12 @@
 							<li>
 								<a href="http://themeforest.net/user/kubasto/portfolio/?ref=kubasto" title="My other templates">Jacksonville</a>
 								<ul>
-									<li><a href="http://themes.kubasto.com/template/time/" title="Fast Blog">Tampa</a></li>
-									<li><a href="http://themes.kubasto.com/template/fastblog/" title="Fast Blog">Orlando</a></li>
-									<li><a href="http://themes.kubasto.com/template/stuff/" title="Stuff">Miami</a></li>
-									<li><a href="http://themes.kubasto.com/simplemobile/" title="Simple Mobile">Ft. Lauderdale</a></li>
+									<li><a href="/1">Jacksonville</a></li>
+									<li><a href="/2">Gainesville</a></li>
+									<li><a href="/3">Tampa</a></li>
+									<li><a href="/4">Orlando</a></li>
+									<li><a href="/5">Miami</a></li>
+									<li><a href="/6">Ft. Lauderdale</a></li>
 								</ul>
 							</li>
 							<li><a href="http://themeforest.net/user/kubasto/?ref=kubasto" title="My profile">My profile</a></li>
@@ -137,7 +139,7 @@
 						<li><a href="about.html" title="Portfolios">MyVillage</a></li>
 						<!--<li><a href="donate.html" title="Donate">Donate</a></li>-->
 						<li>
-							<a title="/events/view">Events</a>
+							<a href="/events/view/" title="Events">Events</a>
 							<!--<ul>
 								<li><a href="/events/view/onetime" title="One-Time Events">One-Time Events</a></li>
 								<li><a href="/events/view/clubs" title="Clubs">Clubs</a></li>

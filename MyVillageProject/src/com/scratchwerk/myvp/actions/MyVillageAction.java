@@ -5,13 +5,13 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-public class ArticlesAction {
-	
-	@RequestMapping(value="/articles/view", method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+public class MyVillageAction {
+
+	@RequestMapping(value="/myvillage/home", method = RequestMethod.GET)
+	public String infoAbout(ModelMap model) {
  
 		//model.addAttribute("id", id);
-		return "articles";
+		return "index";
  
 	}
 }

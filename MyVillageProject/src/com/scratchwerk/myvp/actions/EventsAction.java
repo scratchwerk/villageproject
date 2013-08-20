@@ -7,14 +7,24 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class EventsAction {
 	
-	@RequestMapping(value="/events/view", method = RequestMethod.GET)
-	public String viewAll(ModelMap model) {
+	@RequestMapping(value="/events/view/{cityId}", method = RequestMethod.GET)
+	public String viewEventsByCity(@PathVariable String cityId, ModelMap model) {
  
 		
-		model.addAttribute("id", id);
+		model.addAttribute("id", cityId);
 		return "events";
  
 	}
+	
+	@RequestMapping(value="/events/view/", method = RequestMethod.GET)
+	public String viewEvents(ModelMap model) {
+ 
+		
+		//model.addAttribute("id", cityId);
+		return "events";
+ 
+	}
+	
 	
 	
 }
