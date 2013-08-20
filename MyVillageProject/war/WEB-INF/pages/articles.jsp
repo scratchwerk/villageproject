@@ -134,87 +134,18 @@
 								<li><a href="awards.html" title="Awards">Awards</a></li>
 							</ul>
 						</li>
+						<li><a href="about.html" title="Portfolios">MyVillage</a></li>
+						<!--<li><a href="donate.html" title="Donate">Donate</a></li>-->
 						<li>
-							<a href="about.html" title="Portfolios">MyVillage</a>
+							<a title="/events/view">Events</a>
 							<!--<ul>
-								<li>
-									<a href="portfolio_big_one.html" title="big">Family</a>
-									<ul>
-										<li><a href="portfolio_big_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_big_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_medium_one.html" title="medium">Church</a>
-									<ul>
-										<li><a href="portfolio_medium_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_medium_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_small_one.html" title="small">Mentoring</a>
-									<ul>
-										<li><a href="portfolio_small_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_small_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio_tiny_one.html" title="tiny">Clubs</a>
-									<ul>
-										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
-                                <li>
-									<a href="portfolio_tiny_one.html" title="tiny">Events</a>
-									<ul>
-										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
-										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
-									</ul>
-								</li>
+								<li><a href="/events/view/onetime" title="One-Time Events">One-Time Events</a></li>
+								<li><a href="/events/view/clubs" title="Clubs">Clubs</a></li>
+								<li><a href="/events/view/services" title="Support Services">Support Services</a></li>
 							</ul>-->
 						</li>
-						<!--<li>
-							<a href="donate.html" title="Donate">Donate</a>
-						</li>-->
-						<li>
-							<a title="Events">Events</a>
-							<ul>
-								<li><a href="events.html" title="full width slider">One-Time Events</a></li>
-								<li><a href="events.html" title="slider + two banners">Clubs</a></li>
-								<li><a href="events.html" title="slider + text">Support Services</a></li>
-							</ul>
-						</li>
 						<li><a href="newsletters.html" title="Blog">ReGenesis Newsletter</a></li>
-						<!--<li>
-							<a title="Templates">Store</a>
-							<ul>
-								<li>
-									<a href="index.html" title="front page">front page</a>
-									<ul>
-										<li><a href="index.html" title="first">first</a></li>
-										<li><a href="index_second.html" title="second">second</a></li>
-										<li><a href="index_third.html" title="third">third</a></li>
-										<li><a href="index_fourth.html" title="fourth">fourth</a></li>
-									</ul>
-								</li>
-								<li><a href="full_width.html" title="full width">full width</a></li>
-								<li><a href="left_sidebar.html" title="left sidebar">left sidebar</a></li>
-								<li><a href="right_sidebar.html" title="right sidebar">right sidebar</a></li>
-								<li>
-									<a href="portfolio_item_image.html" title="portfolio item">portfolio item</a>
-									<ul>
-										<li><a href="portfolio_item_image.html" title="image">image</a></li>
-										<li><a href="portfolio_item_slider.html" title="slider">slider</a></li>
-										<li><a href="portfolio_item_video.html" title="video">video</a></li>
-									</ul>
-								</li>
-								<li><a href="post.html" title="post">post</a></li>
-								<li><a href="search_results.html" title="post">search results</a></li>
-								<li><a href="no_menu.html" title="no menu page">no menu page</a></li>
-								<li><a href="contact.html" title="contact">contact</a></li>
-							</ul>
-						</li>-->
+						<!--<li><a title="Templates">Store</a></li>-->
 						<li><a href="contact.html" title="About">Contact Us</a></li>
 					</ul>
 				</nav>

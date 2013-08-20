@@ -43,7 +43,7 @@
 		<script src="data/js/website.config.js"></script>
 		<script src="data/js/website.min.js"></script>
 
-		<title>Website - responsive template</title>
+		<title>MyVillage Project - Events</title>
 
 	</head>
 	<!-- // Head section -->
@@ -177,11 +177,11 @@
 						</li>-->
 						<li>
 							<a title="Events">Events</a>
-							<ul>
+							<!--<ul>
 								<li><a href="events.html" title="full width slider">One-Time Events</a></li>
 								<li><a href="events.html" title="slider + two banners">Clubs</a></li>
 								<li><a href="events.html" title="slider + text">Support Services</a></li>
-							</ul>
+							</ul>-->
 						</li>
 						<li><a href="newsletters.html" title="Blog">ReGenesis Newsletter</a></li>
 						<!--<li>
@@ -219,132 +219,262 @@
 <!-- // Main navigation -->
 
 				<!-- Content -->
-				<section id="content" class="alpha">
+				<section id="content">
 
-					<!-- Link post -->
-					<article class="post link">
-						<section class="main">
-							<h1 class="title"><a href="post.html" title="This is link post type">This is link post type</a></h1>
-							<div class="content">
-								<p>Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
-							</div>
-						</section>
-						<ul class="meta">
-							<li class="comments"><a href="#_">7 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 17, 2011</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
-						</ul>
-					</article>
-					<!-- // Link post -->
+					<!-- Filter -->
+					<section class="filter">
+						<a href="#">all</a>
+						<a href="#video">Aug 2013</a>
+						<a href="#video">Sep 2013</a>
+						<a href="#video">Oct 2013</a>
+						<a href="#graphics">One-Time Events</a>
+						<a href="#webdesign">Clubs</a>
+						<a href="#photography">Support Services</a>
+					</section>
+					<!-- // Filter -->
 
-					<!-- Video post -->
-					<article class="post video">
-						<section class="main">
-							<h1 class="title"><a href="post.html" title="Video post with an external player">Video post with an external player</a></h1>
-							<div class="featured">
-								<iframe src="http://player.vimeo.com/video/29739725?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-							</div>
-						</section>
-						<ul class="meta">
-							<li class="comments"><a href="#_">14 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 21, 2011</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
-						</ul>
-					</article>
-					<!-- // Video post -->
+					<!-- Portfolio tiny -->
+					<section class="items tiny clear">
 
-					<!-- Audio post -->
-					<article class="post audio">
-						<section class="main">
-							<h1 class="title"><a href="post.html" title="Audio post with a built-in player">Audio post with a&nbsp;built-in player</a></h1>
-							<div class="featured">
-								<audio
-									id="audio-0"
-									class="no-svg"
-									src="content/audio.mp3"
-									controls="controls"
-									preload="none"
-								>
-								</audio>
+						<article class="item" data-category="graphics photography">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item01.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
 							</div>
-							<div class="content">
-								<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-							</div>
-						</section>
-						<ul class="meta">
-							<li class="comments"><a href="#_">8 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 24, 2011</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
-						</ul>
-					</article>
-					<!-- // Audio post -->
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Optional title">Optional title</a></h1>
+								<div class="content">
+									<p>Etiam ultricies nisi vel augue. Curabitur ullamc orper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+									<p class="tags">
+										<a href="#_">tag one</a>
+										<a href="#_">another tag</a>
+										<a href="#_">favourite</a>
+									</p>
+								</div>
+							</section>
+						</article>
 
-					<!-- Default post -->
-					<article class="post default">
-						<section class="main">
-							<h1 class="title"><a href="post.html" title="Default post">Default post</a></h1>
-							<div class="content">
-								<p>Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.</p>
-								<p>Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. <a href="post.html" class="more">Read more</a></p>
+						<article class="item" data-category="video">
+							<div class="image">
+								<a href="portfolio_item_video.html">
+									<img src="/" data-src="content/item02.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
 							</div>
-						</section>
-						<ul class="meta">
-							<li class="comments"><a href="#_">1 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 15, 2011</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
-						</ul>
-					</article>
-					<!-- // Default post -->
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Another title">Another title</a></h1>
+								<div class="content">
+									<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+									<p class="tags">
+										<a href="#_">tag one</a>
+										<a href="#_">another tag</a>
+										<a href="#_">favourite</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="webdesign">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item03.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Sed consequat bibendum">Sed consequat bibendum</a></h1>
+								<div class="content">
+									<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="video">
+							<div class="image">
+								<a href="portfolio_item_video.html">
+									<img src="/" data-src="content/item04.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<div class="content">
+									<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, <a href="#_">viverra quis</a>, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+									<p class="tags">
+										<a href="#_">same tag</a>
+										<a href="#_">super tag</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="photography">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item05.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Super cool title">Super cool title</a></h1>
+								<div class="content">
+									<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									<p class="tags">
+										<a href="#_">one</a>
+										<a href="#_">two</a>
+										<a href="#_">three</a>
+										<a href="#_">four</a>
+										<a href="#_">five</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="webdesign">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item06.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<div class="content">
+									<p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<p class="tags">
+										<a href="#_">primary tag</a>
+										<a href="#_">secondary tag</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="photography">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item07.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Aenean imperdiet">Aenean imperdiet</a></h1>
+								<div class="content">
+									<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. <a href="#_">Quisque</a> rutrum.</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="webdesign">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item08.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<div class="content">
+									<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="graphics video">
+							<div class="image">
+								<a href="portfolio_item_video.html">
+									<img src="/" data-src="content/item09.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+						</article>
+
+						<article class="item" data-category="webdesign photography">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item10.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<div class="content">
+									<p class="tags">
+										<a href="#_">forest</a>
+										<a href="#_">sun</a>
+										<a href="#_">trees</a>
+										<a href="#_">portrait</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="webdesign">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item11.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Consequat vitae">Consequat vitae</a></h1>
+								<div class="content">
+									<p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+									<p class="tags">
+										<a href="#_">clouds</a>
+										<a href="#_">sky</a>
+										<a href="#_">sunset</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="graphics photography">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item12.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Curabitur ullamcorper">Curabitur ullamcorper</a></h1>
+								<div class="content">
+									<p>Duis leo. Sed fringilla mauris sit amet nibh.</p>
+									<p class="tags">
+										<a href="#_">rhoncus</a>
+										<a href="#_">nisi</a>
+										<a href="#_">ultricies</a>
+										<a href="#_">eget</a>
+										<a href="#_">tincidunt</a>
+									</p>
+								</div>
+							</section>
+						</article>
+
+						<article class="item" data-category="graphics">
+							<div class="image">
+								<a href="portfolio_item_slider.html">
+									<img src="/" data-src="content/item13.jpg" class="responsive" alt="" />
+									<span class="hover"></span>
+								</a>
+							</div>
+							<section class="main">
+								<div class="content">
+									<p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
+								</div>
+							</section>
+						</article>
+
+					</section>
+					<!-- // Portfolio tiny -->
 
 					<!-- Pagination -->
 					<div class="pagination">
-						<a href="#_" class="left">previous posts</a>
-						<a href="#_" class="right">next posts</a>
+						<a href="#_" class="left">previous</a>
+						<a href="#_" class="right">next</a>
 					</div>
 					<!-- // Pagination -->
 
 				</section>
 				<!-- // Content -->
 
-				<!-- Aside -->
-				<aside id="aside" class="beta">
-
-					<ul>
-						<li class="widget widget-search">
-							<form action="search_results.html">
-								<input type="submit" value="" />
-								<div class="input">
-									<input name="s" type="text" placeholder="search" />
-								</div>
-							</form>
-						</li>
-						<li class="widget widget-archives">
-							<h1>The archives</h1>
-							<ul class="fancy">
-								<li><a href="#_">July 2013</a></li>
-								<li><a href="#_">June 2013</a></li>
-								<li><a href="#_">May 2013</a></li>
-								<li><a href="#_">April 2013</a></li>
-								<li><a href="#_">March 2013</a></li>
-							</ul>
-						</li>
-						<li class="widget widget-flickr" data-id="52617155@N08" data-count="8">
-							<h1>Photo stream</h1>
-							<ul class="photos"></ul>
-						</li>
-						
-					</ul>
-
-				</aside>
-				<!-- // Aside -->
 			</div>
 		</div>
 		<!-- // Main section -->
