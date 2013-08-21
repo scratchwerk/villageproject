@@ -1,10 +1,11 @@
 package com.scratchwerk.vp.models;
 
 import java.util.Date;
+import com.google.appengine.api.datastore.Key;
 
 public class VillageMember {
 
-	private int id;
+	private Key id;
 	private String firstName;
 	private String lastName;
 	private Date dob;
@@ -17,10 +18,10 @@ public class VillageMember {
 	
 	
 	
-	public int getId() {
+	public Key getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Key id) {
 		this.id = id;
 	}
 	public String getFirstName() {

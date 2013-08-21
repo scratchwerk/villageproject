@@ -1,10 +1,12 @@
 package com.scratchwerk.vp.models;
 
+import com.google.appengine.api.datastore.Key;
+
 public class Relationship {
 
 	private int id;
-	private int requestorID;
-	private int requestedID;
+	private Key requestorID;
+	private Key requestedID;
 	private int approvalID;
 	private boolean isConfirmed = false;
 	private int relationType;
@@ -42,16 +44,16 @@ public class Relationship {
 	public void setRelationType(int relationType) {
 		this.relationType = relationType;
 	}
-	public int getRequestorID() {
+	public Key getRequestorID() {
 		return requestorID;
 	}
-	public void setRequestorID(int requestorID) {
+	public void setRequestorID(Key requestorID) {
 		this.requestorID = requestorID;
 	}
-	public int getRequestedID() {
+	public Key getRequestedID() {
 		return requestedID;
 	}
-	public void setRequestedID(int requestedID) {
+	public void setRequestedID(Key requestedID) {
 		this.requestedID = requestedID;
 	}
 	public int getApprovalID() {

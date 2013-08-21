@@ -4,6 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import com.scratchwerk.dao.UserDAO;
+import com.scratchwerk.vp.models.VillageMember;
+
 @Controller
 public class UserAction {
 
@@ -11,7 +14,9 @@ public class UserAction {
 	public String userProfile(ModelMap model) {
  
 		//model.addAttribute("id", id);
-		return "articles";
+		VillageMember vm = null;
+		UserDAO.retrieveMember();
+		return "index";
  
 	}
 	
@@ -27,6 +32,18 @@ public class UserAction {
 	public String userLogout(ModelMap model) {
  
 		//model.addAttribute("id", id);
+		return "index";
+ 
+	}
+	
+	@RequestMapping(value="/user/add", method = RequestMethod.GET)
+	public String addUser(ModelMap model) {
+ 
+		//model.addAttribute("id", id);
+		
+		VillageMember vm = null;
+		UserDAO.addUser(vm);
+		
 		return "index";
  
 	}

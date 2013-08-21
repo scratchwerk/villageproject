@@ -88,7 +88,7 @@
 							<li><a href="/user/profile" title="My profile">My profile</a></li>
 							<li><a href="/about/about" title="About">About</a></li>
 							<li><a href="/about/contact" title="Contact">Contact</a></li>
-							<li class="right"><a href="/user/login">Hello Ronnie!</a></li>
+							<li class="right"><a href="/user/add">Hello Ronnie!</a></li>
 						</ul>
 					</nav>
 					<!-- // Top navigation -->
@@ -134,7 +134,7 @@
 						</li>
 						<li><a href="/myvillage/home" title="Portfolios">MyVillage</a></li>
 						<!--<li><a href="donate.html" title="Donate">Donate</a></li>-->
-						<li><a href="Events">Events</a></li>
+						<li><a href="/events/view/">Events</a></li>
 						<li><a href="/news/regenesis" title="Newsletter">ReGenesis Newsletter</a></li>
 						<!--<li><a title="Templates">Store</a></li>-->
 						<li><a href="/about/contact" title="Contact">Contact Us</a></li>

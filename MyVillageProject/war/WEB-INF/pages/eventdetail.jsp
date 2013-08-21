@@ -43,7 +43,7 @@
 		<script src="data/js/website.config.js"></script>
 		<script src="data/js/website.min.js"></script>
 
-		<title>Website - responsive template</title>
+		<title>MyVillage Project - Post</title>
 
 	</head>
 	<!-- // Head section -->
@@ -77,18 +77,18 @@
 					<nav id="nav-top" class="clear left">
 						<ul>
 							<li>
-								<a href="http://themeforest.net/user/kubasto/portfolio/?ref=kubasto" title="My other templates">My other templates</a>
+								<a href="http://themeforest.net/user/kubasto/portfolio/?ref=kubasto" title="My other templates">Jacksonville</a>
 								<ul>
-									<li><a href="http://themes.kubasto.com/template/time/" title="Fast Blog">Time</a></li>
-									<li><a href="http://themes.kubasto.com/template/fastblog/" title="Fast Blog">Fast Blog</a></li>
-									<li><a href="http://themes.kubasto.com/template/stuff/" title="Stuff">Stuff</a></li>
-									<li><a href="http://themes.kubasto.com/simplemobile/" title="Simple Mobile">Simple Mobile</a></li>
+									<li><a href="http://themes.kubasto.com/template/time/" title="Fast Blog">Tampa</a></li>
+									<li><a href="http://themes.kubasto.com/template/fastblog/" title="Fast Blog">Orlando</a></li>
+									<li><a href="http://themes.kubasto.com/template/stuff/" title="Stuff">Miami</a></li>
+									<li><a href="http://themes.kubasto.com/simplemobile/" title="Simple Mobile">Ft. Lauderdale</a></li>
 								</ul>
 							</li>
 							<li><a href="http://themeforest.net/user/kubasto/?ref=kubasto" title="My profile">My profile</a></li>
 							<li><a href="about.html" title="About">About</a></li>
 							<li><a href="contact.html" title="Contact">Contact</a></li>
-							<li class="right"><a title="Call me: +44 555 689 123">Call me: +44 555 689 123</a></li>
+							<li class="right"><a title="Call me: +44 555 689 123">Hello Ronnie!</a></li>
 						</ul>
 					</nav>
 					<!-- // Top navigation -->
@@ -108,17 +108,14 @@
 					<hgroup class="alpha">
 						<h1 class="alpha vertical">
 							<span>
-								<a href="index.html" title="Website"><img src="content/bright/logo.png" alt="" /></a>
+								<a href="index.html" title="Website"><img src="content/VillageProject.png" width="350px" height="75px"alt="" /></a>
 							</span>
 						</h1>
-						<h2 class="vertical">
-							<span>responsive website template&nbsp;by&nbsp;kubasto</span>
-						</h2>
 					</hgroup>
 					<div class="ad beta vertical">
 						<div>
-							<a href="#_"><img src="content/bright/ad-468x60.png" width="468" height="60" alt="" /></a>
-						</div>
+						<h2>we should, we can, we will</h2>
+                       </div>
 					</div>
 				</header>
 				<!-- // Header -->
@@ -128,66 +125,67 @@
 					<ul>
 						<li><a href="index.html" title="Home">Home</a></li>
 						<li>
-							<a title="Features">Features</a>
+							<a title="Features">News</a>
 							<ul>
-								<li>
-									<a href="banners_full.html" title="sliders">sliders</a>
-									<ul>
-										<li><a href="banners_full.html" title="full width slider">full width slider</a></li>
-										<li><a href="banners_one_two.html" title="slider + two banners">slider + two banners</a></li>
-										<li><a href="banners_one_text.html" title="slider + text">slider + text</a></li>
-									</ul>
-								</li>
-								<li><a href="typography.html" title="typography">typography</a></li>
-								<li><a href="columns.html" title="columns">columns</a></li>
-								<li><a href="breadcrumbs.html" title="breadcrumbs">breadcrumbs</a></li>
+								<li><a href="photos.html" title="Photos">Photos</a></li>
+								<li><a href="articles.html" title="Articles">Articles</a></li>
+								<li><a href="awards.html" title="Awards">Awards</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="portfolio_small_one.html" title="Portfolios">Portfolios</a>
-							<ul>
+							<a href="about.html" title="Portfolios">MyVillage</a>
+							<!--<ul>
 								<li>
-									<a href="portfolio_big_one.html" title="big">big</a>
+									<a href="portfolio_big_one.html" title="big">Family</a>
 									<ul>
 										<li><a href="portfolio_big_one.html" title="example one">example one</a></li>
 										<li><a href="portfolio_big_two.html" title="example two">example two</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="portfolio_medium_one.html" title="medium">medium</a>
+									<a href="portfolio_medium_one.html" title="medium">Church</a>
 									<ul>
 										<li><a href="portfolio_medium_one.html" title="example one">example one</a></li>
 										<li><a href="portfolio_medium_two.html" title="example two">example two</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="portfolio_small_one.html" title="small">small</a>
+									<a href="portfolio_small_one.html" title="small">Mentoring</a>
 									<ul>
 										<li><a href="portfolio_small_one.html" title="example one">example one</a></li>
 										<li><a href="portfolio_small_two.html" title="example two">example two</a></li>
 									</ul>
 								</li>
 								<li>
-									<a href="portfolio_tiny_one.html" title="tiny">tiny</a>
+									<a href="portfolio_tiny_one.html" title="tiny">Clubs</a>
 									<ul>
 										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
 										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
 									</ul>
 								</li>
-							</ul>
+                                <li>
+									<a href="portfolio_tiny_one.html" title="tiny">Events</a>
+									<ul>
+										<li><a href="portfolio_tiny_one.html" title="example one">example one</a></li>
+										<li><a href="portfolio_tiny_two.html" title="example two">example two</a></li>
+									</ul>
+								</li>
+							</ul>-->
 						</li>
+						<!--<li>
+							<a href="donate.html" title="Donate">Donate</a>
+						</li>-->
 						<li>
-							<a href="gallery_tiny.html" title="Galleries">Galleries</a>
+							<a title="Events">Events</a>
 							<ul>
-								<li><a href="gallery_big.html" title="big">big</a></li>
-								<li><a href="gallery_medium.html" title="medium">medium</a></li>
-								<li><a href="gallery_small.html" title="small">small</a></li>
-								<li><a href="gallery_tiny.html" title="tiny">tiny</a></li>
+								<li><a href="events.html" title="full width slider">One-Time Events</a></li>
+								<li><a href="events.html" title="slider + two banners">Clubs</a></li>
+								<li><a href="events.html" title="slider + text">Support Services</a></li>
 							</ul>
 						</li>
-						<li><a href="blog.html" title="Blog">Blog</a></li>
-						<li>
-							<a title="Templates">Templates</a>
+						<li><a href="newsletters.html" title="Blog">ReGenesis Newsletter</a></li>
+						<!--<li>
+							<a title="Templates">Store</a>
 							<ul>
 								<li>
 									<a href="index.html" title="front page">front page</a>
@@ -214,11 +212,11 @@
 								<li><a href="no_menu.html" title="no menu page">no menu page</a></li>
 								<li><a href="contact.html" title="contact">contact</a></li>
 							</ul>
-						</li>
-						<li><a href="about.html" title="About">About</a></li>
+						</li>-->
+						<li><a href="contact.html" title="About">Contact Us</a></li>
 					</ul>
 				</nav>
-				<!-- // Main navigation -->
+<!-- // Main navigation -->
 
 				<!-- Content -->
 				<section id="content" class="alpha">
@@ -226,23 +224,56 @@
 					<!-- Default post with image -->
 					<article class="post default">
 						<section class="main clear">
-							<div class="featured">
-								<a href="post.html"><img src="content/featured01.jpg" class="responsive" alt="" /></a>
-							</div>
-							<h1 class="title"><a href="post.html" title="Featured article">Featured article</a></h1>
+							<h1 class="title">Example post</h1>
 							<div class="content">
-								<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae in ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. <a href="post.html" class="more">Read more</a></p>
+
+								<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. </p>
+
+								<figure class="thin alignleft full-width-mobile" style="width: 40%;">
+									<a href="content/photo04.jpg" title="Example caption" class="fancybox"><img src="/" data-src="content/photo04.jpg" alt="" class="responsive" /></a>
+									<figcaption>Example image</figcaption>
+								</figure>
+
+								<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+
 							</div>
 						</section>
+						<section class="about clear">
+							<img src="http://www.gravatar.com/avatar/9a0662d44e34c1e2e2af6bc311b16da0?s=60" alt="" class="avatar" />
+							<div class="info">
+								<h1>Mentoring Families and Kids</h1>
+								<p>Organizations focused on uplifting the entire family.<br />Specializing in edcuation and job placement.</p>
+							</div>
+						</section>
+						<ul class="social clear">
+							<li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://themes.kubasto.com/template/website/post.php" data-text="Website - responsive template" data-count="horizontal">Tweet</a></li>
+							<li class="facebook"><div class="fb-like" data-href="http://themes.kubasto.com/template/website/post.php" data-send="false" data-layout="button_count"></div></li>
+							<!--<li class="googleplus"><div class="g-plusone" data-size="medium" data-href="http://themes.kubasto.com/template/website/post.php"></div></li>
+							<li class="pinterest"><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fthemes.kubasto.com%2Ftemplate%2Fwebsite%2Fpost.php&media=http%3A%2F%2Fthemes.kubasto.com%2Ftemplate%2Fwebsite%2Fcontent%2Fphoto04.jpg&description=Example%20post" class="pin-it-button" count-layout="horizontal" always-show-count="true"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a></li>
+							<li class="inshare"><script class="inshare" type="IN/Share" data-url="http://themes.kubasto.com/template/website/post.php" data-counter="right" data-showzero="true"></script></li>-->
+						</ul>
 						<ul class="meta">
-							<li class="comments"><a href="#_">18 Villagers Attended</a></li>
-							<li class="author"><a href="#">Mentoring Families and Kids</a></li>
-							<li class="date"><a href="#_">June 28, 2013</a></li>
-							<li class="category"><a href="#_">Education</a>, <a href="#_">STEM</a></li>
-							<li class="link"><a href="post.html">Link</a></li>
+							<li class="comments"><a href="#_">8 comments</a></li>
+							<li class="date"><a href="#_">December 6, 2011</a></li>
+							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
+							<li class="tags"><a href="#_">tag one</a>, <a href="#_">tag two</a>, <a href="#_">tag</a></li>
+							<li class="link"><a href="post.html">Permalink</a></li>
 						</ul>
 					</article>
 					<!-- // Default post with image -->
+
+					<!-- Comment form -->
+					<section class="comment-form">
+						<h1>Have a question?</h1>
+						<p><input type="text" name="name" placeholder="name" /> <span class="lte-ie9">name</span></p>
+						<p><input type="text" name="email" placeholder="email (not published)" /> <span class="lte-ie9">email (not&nbsp;published)</span></p>
+						<p><input type="text" name="website" placeholder="website" /> <span class="lte-ie9">website</span></p>
+						<p><textarea name="comment"></textarea></p>
+						<p><input type="submit" value="Send &raquo;" /></p>
+					</section>
+					<!-- // Comment form -->
 
 				</section>
 				<!-- // Content -->
@@ -259,43 +290,19 @@
 								</div>
 							</form>
 						</li>
-						<li class="widget widget-flickr" data-id="52617155@N08" data-count="12">
-							<h1>Photo stream</h1>
-							<ul class="photos"></ul>
+						<li class="widget widget-archives">
+							<h1>Other Events</h1>
+							<ul class="fancy">
+								<li><a href="#_">Achievement Week</a></li>
+								<li><a href="#_">Talent Hunt</a></li>
+								<li><a href="#_">Event 3</a></li>
+								<li><a href="#_">Event 4</a></li>
+							</ul>
 						</li>
 					</ul>
 
 				</aside>
 				<!-- // Aside -->
-				<div class="clear-this"></div>
-
-				<!-- Four columns -->
-				<section class="columns four clear">
-					<ul>
-						<li class="column">
-							<img src="data/img/icons/32/shipping.png" alt="" class="icon" />
-							<h1>Donations</h1>
-							<p>Consectetuer, exquo novum saperet fierent. Nobis dehhag asilenit novim. Nosed denique um, sedsit theophrastus, cumei graeci discere impeditus ad tesmel. <a href="#_" class="more">More</a></p>
-						</li>
-						<li class="column">
-							<img src="data/img/icons/32/bestseller.png" alt="" class="icon" />
-							<h1>Recognition</h1>
-							<p>Eum idiudicabit nadeo sedvel duis voluptaria ne. Eum idiudicabit no sed denique mnesarchum, seicad nemis iudicicaabit theophrastus, cumeipria nicae eum ididicabit. <a href="#_" class="more">More</a></p>
-						</li>
-						<li class="column">
-							<img src="data/img/icons/32/customers.png" alt="" class="icon" />
-							<h1>Community</h1>
-							<p>Suscipiantur consetuer, exquo sacrem saperet fierentens. Conse ctetuer, exquo novum satepor fierent. Nobis dehhag asilenit novim. Nosed denique umtheos. <a href="#_" class="more">More</a></p>
-						</li>
-						<li class="column">
-							<img src="data/img/icons/32/communication.png" alt="" class="icon" />
-							<h1>Tracking</h1>
-							<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus. <a href="#_" class="more">More</a></p>
-						</li>
-					</ul>
-				</section>
-				<!-- // Four columns -->
-
 			</div>
 		</div>
 		<!-- // Main section -->
@@ -309,24 +316,23 @@
 					<ul>
 						<li class="small widget widget-info">
 							<hgroup>
-								<h1>Website</h1>
-								<h2>responsive website<br />template by kubasto</h2>
+								<h1>Be The Change</h1>
+								<h2>we should, we can<br />we will</h2>
 							</hgroup>
 						</li>
-						<li class="small widget widget-twitter" data-username="KUBASTOcom" data-count="2">
+						<li class="small widget widget-twitter" data-username="ronnieking" data-count="2">
 							<h1>Latest tweets</h1>
 							<div class="tweets"></div>
 						</li>
 						<li class="small widget widget-text">
 							<h1>Address</h1>
 							<p>
-								email: <a href="mailto:themes@kubasto.com">themes@kubasto.com</a><br />
-								+48 555 22 11 (Tomy&nbsp;Lee&nbsp;Jones)<br />
-								+48 555 65 65 (John&nbsp;Malkovich)
+								email: <a href="mailto:info@myvillageproject.com">info@myvillageproject.com</a><br />
+								800-530-9375<br />
 							</p>
 							<p>
-								Sesame Street 1<br />
-								00-525 New York
+								P.O. Box 11111<br />
+								Jacksonville, FL 32258
 							</p>
 						</li>
 						<li class="fixed widget widget-contact">
@@ -344,9 +350,9 @@
 
 				<!-- Footer -->
 				<section id="footer" class="clear">
-					<p class="alpha">&copy; Copyright, 2011<br />website by <a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></p>
-					<p class="beta">powered by <a href="http://themeforest.net/item/website-responsive-template/993139/?ref=kubasto">ThemeForest</a></p>
-				</section>
+					<p class="alpha">&copy; Copyright, 2013<br />
+					  website by Scratchwerk Consulting</p>
+					<p class="beta">powered by Village Project</p></section>
 				<!-- // Footer -->
 
 			</div>
