@@ -85,10 +85,20 @@
 									<li><a href="/6">Ft. Lauderdale</a></li>
 								</ul>
 							</li>
-							<li><a href="/user/profile" title="My profile">My profile</a></li>
+							 <c:if test="${not empty user}">
+							        <li><a href="/user/profile" title="My profile">My profile</a></li>
+							 </c:if>							
 							<li><a href="/about/about" title="About">About</a></li>
 							<li><a href="/about/contact" title="Contact">Contact</a></li>
-							<li class="right"><a href="/user/add">Hello Ronnie!</a></li>
+							<c:choose>
+							    <c:when test="${empty user}">
+							        <li class="right"><a href="/user/login/view">Login</a></li>
+							    </c:when>
+							    <c:otherwise>
+							        <li class="right"><a href="/user/logout">Hello ${user.firstName}!</a></li>
+							    </c:otherwise>
+							</c:choose>
+														
 						</ul>
 					</nav>
 					<!-- // Top navigation -->

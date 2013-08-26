@@ -14,4 +14,12 @@ public class MyVillageAction {
 		return "index";
  
 	}
+	
+	@RequestMapping(value="/admin/profile", method = RequestMethod.GET)
+	public String viewProfile(ModelMap model) {
+ 
+		//model.addAttribute("id", id);
+		return "index";
+ 
+	}
 }
