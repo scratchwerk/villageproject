@@ -2,6 +2,7 @@ package com.scratchwerk.myvp.actions;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import com.scratchwerk.dao.UserDAO;
@@ -21,12 +22,16 @@ public class UserAction {
 	}
 	
 	@RequestMapping(value="/user/login", method = RequestMethod.POST)
-	public String userLogin(ModelMap model) {
+	public String userLogin(@ModelAttribute("member")VillageMember member, ModelMap model) {
  
-		VillageMember vm = new VillageMember();
-		vm.setFirstName("Ronald");
-		model.addAttribute("user", vm);
-		return "index";
+		String username = member.getUsername();
+		String password = member.getPassword();
+		if(!(username.equals("rking") && password.equals("testing"))){
+			model.addAttribute("member", member);
+			return "admin/login";
+		}
+		
+		return "admin/index";
  
 	}
 	
@@ -34,8 +39,7 @@ public class UserAction {
 	public String viewLogin(ModelMap model) {
  
 		VillageMember vm = new VillageMember();
-		vm.setFirstName("Ronald");
-		model.addAttribute("user", vm);
+		model.addAttribute("member", vm);
 		return "admin/login";
  
 	}

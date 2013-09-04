@@ -28,7 +28,7 @@
 
         <link rel="shortcut icon" href="img/favicon.png">
 
-        <script src="assets/modernizr/modernizr-2.6.2.min.js"></script>
+        <script src="<c:url value="/resources/assets/modernizr/modernizr-2.6.2.min.js"/>"></script>
     </head>
     <body class="login-page">
         <!--[if lt IE 7]>
@@ -38,17 +38,17 @@
         <!-- BEGIN Main Content -->
         <div class="login-wrapper">
             <!-- BEGIN Login Form -->
-           <form:form method="POST" action="/user/login">
+           <form:form id="form-login" modelAttribute="member" method="POST" action="/user/login">
                 <h3>Login to your account</h3>
                 <hr/>
                 <div class="control-group">
                     <div class="controls">
-                        <input type="text" placeholder="Username" class="input-block-level" />
+                        <form:input path="username" class="input-block-level" placeholder="Username"/>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="controls">
-                        <input type="password" placeholder="Password" class="input-block-level" />
+                        <form:input type="password" path="password" class="input-block-level" placeholder="Password"/>
                     </div>
                 </div>
                 <div class="control-group">
@@ -68,6 +68,9 @@
                     <a href="#" class="goto-forgot pull-left">Forgot Password?</a>
                     <a href="#" class="goto-register pull-right">Sign up now</a>
                 </p>
+                 <p class="clearfix">
+                    <a href="/welcome">Return Home</a>
+                 </p>
             </form:form>
             <!-- END Login Form -->
 
@@ -139,8 +142,8 @@
 
         <!--basic scripts-->
         <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
-        <script>window.jQuery || document.write('<script src="assets/jquery/jquery-1.10.1.min.js"><\/script>')</script>
-        <script src="assets/bootstrap/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<c:url value="/resources/admin/assets/jquery/jquery-1.10.1.min.js"/>"><\/script>')</script>
+        <script src="<c:url value="/resources/admin/assets/bootstrap/bootstrap.min.js"/>"></script>
 
         <script type="text/javascript">
             function goToForm(form)

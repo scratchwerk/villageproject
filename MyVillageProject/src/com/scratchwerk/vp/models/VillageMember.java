@@ -1,10 +1,14 @@
 package com.scratchwerk.vp.models;
 
+import java.io.Serializable;
 import java.util.Date;
+
 import com.google.appengine.api.datastore.Key;
 
-public class VillageMember {
+public class VillageMember implements Serializable {
 
+	private static final long serialVersionUID = -5527566248002296042L;
+	
 	private Key id;
 	private String firstName;
 	private String lastName;
