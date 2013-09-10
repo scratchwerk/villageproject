@@ -99,34 +99,63 @@
             <form id="form-register" action="/user/login" method="get" class="hide">
                 <h3>Sign up</h3>
                 <hr/>
-                <div class="control-group">
+                <div class="form-group">
                     <div class="controls">
                         <input type="text" placeholder="Email" class="input-block-level" />
                     </div>
                 </div>
-                <div class="control-group">
+                <div class="form-group">
                     <div class="controls">
                         <input type="text" placeholder="Username" class="input-block-level" />
                     </div>
                 </div>
-                <div class="control-group">
+                <div class="form-group">
                     <div class="controls">
                         <input type="password" placeholder="Password" class="input-block-level" />
                     </div>
                 </div>
-                <div class="control-group">
+                <div class="form-group">
                     <div class="controls">
                         <input type="password" placeholder="Repeat Password" class="input-block-level" />
                     </div>
                 </div>
-                <div class="control-group">
+                <div class="form-group">
+                	<div class="controls">
+                        	<select class="input-xlarge" name="select" id="select" data-rule-required="true">
+                                                <option value="">-- Select Role --</option>
+                                                <option value="1">Parent</option>
+                                                <option value="2">Student</option>
+                                                <option value="3"></option>
+                                                <option value="4">Option-4</option>
+                                                <option value="5">Option-5</option>
+                                                <option value="6">Option-6</option>
+                                                <option value="7">Option-7</option>
+                                                <option value="8">Option-8</option>
+                                                <option value="9">Option-9</option>
+                                                <option value="10">Option-10</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                <div class="form-group">
+                                      <label class="col-sm-3 col-lg-2 control-label">Custom Dropdown</label>
+                                      <div class="col-sm-9 col-lg-10 controls">
+                                         <select class="form-control  chosen" data-placeholder="Choose a Category" tabindex="1">
+                                            <option value=""> </option>
+                                            <option value="Category 1">Category 1</option>
+                                            <option value="Category 2">Category 2</option>
+                                            <option value="Category 3">Category 5</option>
+                                            <option value="Category 4">Category 4</option>
+                                         </select>
+                                      </div>
+                                   </div>
+                <div class="form-group">
                     <div class="controls">
                         <label class="checkbox">
                             <input type="checkbox" value="remember" /> I accept the <a href="#">user aggrement</a>
                         </label>
                     </div>
                 </div>
-                <div class="control-group">
+                <div class="form-group">
                     <div class="controls">
                         <button type="submit" class="btn btn-primary input-block-level">Sign up</button>
                     </div>
@@ -145,6 +174,31 @@
         <script>window.jQuery || document.write('<script src="<c:url value="/resources/admin/assets/jquery/jquery-1.10.1.min.js"/>"><\/script>')</script>
         <script src="<c:url value="/resources/admin/assets/bootstrap/bootstrap.min.js"/>"></script>
 
+       <!--page specific plugin scripts-->
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/chosen-bootstrap/chosen.jquery.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-inputmask/bootstrap-inputmask.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/jquery-tags-input/jquery.tagsinput.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-fileupload/bootstrap-fileupload.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/dropzone/downloads/dropzone.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-timepicker/js/bootstrap-timepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/clockface/js/clockface.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-daterangepicker/date.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-daterangepicker/daterangepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-switch/static/js/bootstrap-switch.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"/>"></script> 
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/ckeditor/ckeditor.js"/>"></script> 
+       
+        <!--page specific plugin scripts
+       <script type="text/javascript" src="assets/jquery-pwstrength/jquery.pwstrength.min.js"></script>
+         <script type="text/javascript" src="assets/bootstrap-duallistbox/duallistbox/bootstrap-duallistbox.js"></script>
+        <script type="text/javascript" src="assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+       -->
+       <!--flaty scripts-->
+        <script src="<c:url value="/resources/admin/js/flaty.js"/>"></script>
+        
+        
         <script type="text/javascript">
             function goToForm(form)
             {

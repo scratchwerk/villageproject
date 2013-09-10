@@ -1,5 +1,48 @@
 $(function() {
 
+    //Handel user layout settings using cookie
+    function handleUserLayoutSetting() {
+        if (typeof cookie_not_handle_user_settings != 'undefined' && cookie_not_handle_user_settings == true) {
+            return;
+        }
+        //Collapsed sidebar
+        if ($.cookie('sidebar-collapsed') == 'true') {
+            $('#sidebar').addClass('sidebar-collapsed');
+        }
+
+        //Fixed sidebar
+        if ($.cookie('sidebar-fixed') == 'true') {
+            $('#sidebar').addClass('sidebar-fixed');
+        }
+
+        //Fixed navbar
+        if ($.cookie('navbar-fixed') == 'true') {
+            $('#navbar').addClass('navbar-fixed');
+        }
+
+        var color_skin = $.cookie('skin-color');
+        var color_sidebar = $.cookie('sidebar-color');
+        var color_navbar = $.cookie('navbar-color');
+
+        //Skin color
+        if (color_skin !== undefined) {
+            $('body').addClass('skin-' + color_skin);
+        }
+
+        //Sidebar color
+        if (color_sidebar !== undefined) {
+            $('#main-container').addClass('sidebar-' + color_sidebar);
+        }
+
+        //Navbar color
+        if (color_navbar !== undefined) {
+            $('#navbar').addClass('navbar-' + color_navbar);
+        }
+    }
+    //If you want to handle skin color by server-side code, don't forget to comment next line  
+    handleUserLayoutSetting();
+
+
     //Disable certain links
     $('a[href^=#]').click(function (e) {
         e.preventDefault()
@@ -75,11 +118,19 @@ $(function() {
         $('#sidebar').toggleClass('sidebar-collapsed');
         if ($('#sidebar').hasClass('sidebar-collapsed')) {
             $('#sidebar-collapse > i').attr('class', 'icon-double-angle-right');
+            $.cookie('sidebar-collapsed', 'true');
         } else {
             $('#sidebar-collapse > i').attr('class', 'icon-double-angle-left');
+            $.cookie('sidebar-collapsed', 'false');
         }
         $(".nice-scroll").getNiceScroll().resize();
         scrollableSidebar();
+    });
+
+    $('#sidebar').on('show.bs.collapse', function () {
+        if ($(this).hasClass('sidebar-collapsed')) {
+            $(this).removeClass('sidebar-collapsed');
+        }
     });
     //Search Form
     $('#sidebar .search-form').click(function(){
@@ -122,8 +173,29 @@ $(function() {
             $('#navbar').attr('class', $('#navbar').attr('class').replace(/\bnavbar-.*\b/g, '').trim());
             $('#main-container').attr('class', $('#main-container').attr('class').replace(/\bsidebar-.*\b/g, '').trim());
         }
+        $.cookie(prefix + 'color', color);
     });
-    //handle fixed navbar & sidebar
+    //Handel selected color
+    var theme_colors = ["blue", "red", "green", "orange", "yellow", "pink", "magenta", "gray", "black"];
+    $.each(theme_colors, function(k, v) {
+        if ($('body').hasClass('skin-' + v)) {
+            $('#theme-setting ul.colors > li').removeClass('active');
+            $('#theme-setting ul.colors > li:has(a.'+ v +')').addClass('active');
+        }
+    });
+
+    $.each(theme_colors, function(k, v) {
+        if ($('#navbar').hasClass('navbar-' + v)) {
+            $('#theme-setting ul[data-prefix="navbar-"] > li').removeClass('active');
+            $('#theme-setting ul[data-prefix="navbar-"] > li:has(a.'+ v +')').addClass('active');
+        }
+
+        if ($('#main-container').hasClass('sidebar-' + v)) {
+            $('#theme-setting ul[data-prefix="sidebar-"] > li').removeClass('active');
+            $('#theme-setting ul[data-prefix="sidebar-"] > li:has(a.'+ v +')').addClass('active');
+        }
+    });
+    //Handle fixed navbar & sidebar
     if ($('#sidebar').hasClass('sidebar-fixed')) {
         $('#theme-setting > ul > li > a[data-target="sidebar"] > i').attr('class', 'icon-check green')
     }
@@ -136,9 +208,11 @@ $(function() {
         if (check.hasClass('icon-check-empty')) {
             check.attr('class', 'icon-check green');
             $('#' + target).addClass(target + '-fixed');
+            $.cookie(target + '-fixed', 'true');
         } else {
             check.attr('class', 'icon-check-empty');
             $('#' + target).removeClass(target + '-fixed');
+            $.cookie(target + '-fixed', 'false');
         }
         if (target == "sidebar") {
             scrollableSidebar();
@@ -187,6 +261,41 @@ $(function() {
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
+
+    //---------------- Active Tile --------------------//
+    if ($('.tile-active').size() > 0) {
+        var tileMoveDuration = 1500;
+        var tileDefaultStop = 5000;
+
+        var tileGoUp = function(el, stop1, stop2, height) {
+            $(el).children('.tile').animate({top: '-='+ height +'px'}, tileMoveDuration);
+            setTimeout(function(){ tileGoDown(el, stop1, stop2, height); }, stop2 + tileMoveDuration);
+        }
+
+        var tileGoDown = function(el, stop1, stop2, height) {
+            $(el).children('.tile').animate({top: '+='+ height +'px'}, tileMoveDuration);
+            setTimeout(function(){ tileGoUp(el, stop1, stop2, height); }, stop1 + tileMoveDuration);
+        }
+
+        $('.tile-active').each(function(index, el){
+            var tile1, tile2, stop1, stop2, height;
+
+            tile1 = $(this).children('.tile').first();
+            tile2 = $(this).children('.tile').last();
+            stop1 = $(tile1).data('stop');
+            stop2 = $(tile2).data('stop');
+            height = $(tile1).outerHeight();
+
+            if (stop1 == undefined) {
+                stop1 = tileDefaultStop;
+            }
+            if (stop2 == undefined) {
+                stop2 = tileDefaultStop;
+            }
+
+            setTimeout(function(){ tileGoUp(el, stop1, stop2, height); }, stop1);
+        });
+    }
 
     //---------------------- Gritter Notification --------------//
     $('#gritter-sticky').click(function () {
@@ -415,26 +524,32 @@ $(function() {
     })
 
     //------------------------ Data Table -----------------------//
+    
     if (jQuery().dataTable) {
         $('#table1').dataTable({
+            "fnDrawCallback" : function () {
+                if (jQuery().getNiceScroll) {
+                    $("html").getNiceScroll().resize();
+                }
+            },
             "aLengthMenu": [
-                    [10, 15, 25, 50, 100, -1],
-                    [10, 15, 25, 50, 100, "All"]
-                ],
+                [10, 15, 25, 50, 100, -1],
+                [10, 15, 25, 50, 100, "All"]
+            ],
             "iDisplayLength": 10,
             "oLanguage": {
-                    "sLengthMenu": "_MENU_ Records per page",
-                    "sInfo": "_START_ - _END_ of _TOTAL_",
-                    "sInfoEmpty": "0 - 0 of 0",
-                    "oPaginate": {
-                        "sPrevious": "Prev",
-                        "sNext": "Next"
-                    }
-                },
+                "sLengthMenu": "_MENU_ Records per page",
+                "sInfo": "_START_ - _END_ of _TOTAL_",
+                "sInfoEmpty": "0 - 0 of 0",
+                "oPaginate": {
+                    "sPrevious": "Prev",
+                    "sNext": "Next"
+                }
+            },
             "aoColumnDefs": [{
-                    'bSortable': false,
-                    'aTargets': [0]
-                }]
+                'bSortable': false,
+                'aTargets': [0]
+            }]
         });
     }
 
@@ -445,6 +560,11 @@ $(function() {
         $(".chosen-with-diselect").chosen({
             allow_single_deselect: true
         });
+    }
+    
+    //--------------- Password Strength Indicator ----------------//
+    if (jQuery().pwstrength) {
+        $('input[data-action="pwindicator"]').pwstrength();
     }
 
     //----------------------- Tags Input -------------------------//
@@ -458,6 +578,11 @@ $(function() {
         $('#tag-input-2').tagsInput({
             width: 240
         });
+    }
+
+    //----------------- Bootstrap Dual Listbox -------------------//
+    if (jQuery().bootstrapDualListbox) {
+        $('select[data-action="duallistbox"]').bootstrapDualListbox();
     }
 
     //----------------------- Colorpicker -------------------------//
@@ -594,6 +719,9 @@ $(function() {
                     $('#form-wizard-1').find('.button-next').show();
                     $('#form-wizard-1').find('.button-submit').hide();
                 }
+                var $percent = (current / total) * 100;
+                $('#form-wizard-1').find('.progress-bar').css('width', $percent+'%');
+
                 $('html, body').animate({scrollTop: $("#form-wizard-1").offset().top}, 900);
             },
             onPrevious: function (tab, navigation, index) {
@@ -621,6 +749,8 @@ $(function() {
                     $('#form-wizard-1').find('.button-next').show();
                     $('#form-wizard-1').find('.button-submit').hide();
                 }
+                var $percent = (current / total) * 100;
+                $('#form-wizard-1').find('.progress-bar').css('width', $percent+'%');
 
                 $('html, body').animate({scrollTop: $("#form-wizard-1").offset().top}, 900);
             },
@@ -628,7 +758,7 @@ $(function() {
                 var total = navigation.find('li').length;
                 var current = index + 1;
                 var $percent = (current / total) * 100;
-                $('#form-wizard-1').find('.bar').css({
+                $('#form-wizard-1').find('.progress-bar').css({
                     width: $percent + '%'
                 });
             }
@@ -671,6 +801,9 @@ $(function() {
                     $('#form-wizard-2').find('.button-next').show();
                     $('#form-wizard-2').find('.button-submit').hide();
                 }
+                var $percent = (current / total) * 100;
+                $('#form-wizard-2').find('.progress-bar').css('width', $percent+'%');
+
                 $('html, body').animate({scrollTop: $("#form-wizard-2").offset().top}, 900);
             },
             onPrevious: function (tab, navigation, index) {
@@ -698,6 +831,8 @@ $(function() {
                     $('#form-wizard-2').find('.button-next').show();
                     $('#form-wizard-2').find('.button-submit').hide();
                 }
+                var $percent = (current / total) * 100;
+                $('#form-wizard-2').find('.progress-bar').css('width', $percent+'%');
 
                 $('html, body').animate({scrollTop: $("#form-wizard-2").offset().top}, 900);
             },
@@ -705,7 +840,7 @@ $(function() {
                 var total = navigation.find('li').length;
                 var current = index + 1;
                 var $percent = (current / total) * 100;
-                $('#form-wizard-2').find('.bar').css({
+                $('#form-wizard-2').find('.progress-bar').css({
                     width: $percent + '%'
                 });
             }
@@ -720,11 +855,11 @@ $(function() {
     //------------------------------ Form validation --------------------------//
     if (jQuery().validate) {
         var removeSuccessClass = function(e) {
-            $(e).closest('.control-group').removeClass('success');
+            $(e).closest('.form-group').removeClass('has-success');
         }
         $('#validation-form').validate({
             errorElement: 'span', //default input error message container
-            errorClass: 'help-inline', // default input error message class
+            errorClass: 'help-block', // default input error message class
             focusInvalid: false, // do not focus the last invalid input
             ignore: "",
 
@@ -733,20 +868,16 @@ $(function() {
             },
 
             highlight: function (element) { // hightlight error inputs
-                $(element).closest('.control-group').removeClass('success').addClass('error'); // set error class to the control group
+                $(element).closest('.form-group').removeClass('has-success').addClass('has-error'); // set error class to the control group
             },
 
             unhighlight: function (element) { // revert the change dony by hightlight
-                $(element).closest('.control-group').removeClass('error'); // set error class to the control group
+                $(element).closest('.form-group').removeClass('has-error'); // set error class to the control group
                 setTimeout(function(){removeSuccessClass(element);}, 3000);
             },
 
             success: function (label) {
-                label.closest('.control-group').removeClass('error').addClass('success'); // set success class to the control group
-            },
-
-            submitHandler: function (form) {
-                
+                label.closest('.form-group').removeClass('has-error').addClass('has-success'); // set success class to the control group
             }
         });
     }
