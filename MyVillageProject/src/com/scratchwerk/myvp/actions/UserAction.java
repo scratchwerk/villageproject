@@ -52,6 +52,14 @@ public class UserAction {
  
 	}
 	
+	@RequestMapping(value="/user/register", method = RequestMethod.GET)
+	public String userRegister(ModelMap model) {
+ 
+		//model.addAttribute("id", id);
+		return "admin/register";
+ 
+	}
+	
 	@RequestMapping(value="/user/add", method = RequestMethod.GET)
 	public String addUser(ModelMap model) {
  

@@ -664,12 +664,7 @@
                                          <input type="text" class="form-control show-popover" data-trigger="hover" data-content="Popover body goes here. Popover body goes here." data-original-title="Popover header" data-placement="top" />
                                       </div>
                                    </div>
-                                   <div class="form-group">
-                                      <label class="col-sm-3 col-lg-2 control-label">Input with Tooltip</label>
-                                      <div class="col-sm-9 col-lg-10 controls">
-                                         <input type="text" class="form-control show-tooltip" data-trigger="hover" data-original-title="Tooltip text goes here" />                       
-                                      </div>
-                                   </div>
+                                   
 
                                    <div class="form-group">
                                       <label class="col-sm-3 col-lg-2 control-label">Email Address Input</label>
@@ -1689,7 +1684,7 @@
                 <!-- END Main Content -->
                 
                 <footer>
-                    <p>2013 Â© FLATY Admin Template.</p>
+                    <p>2013 © FLATY Admin Template.</p>
                 </footer>
 
                 <a id="btn-scrollup" class="btn btn-circle btn-lg" href="#"><i class="icon-chevron-up"></i></a>
@@ -1701,32 +1696,32 @@
 
         <!--basic scripts-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/jquery/jquery-2.0.3.min.js"><\/script>')</script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/nicescroll/jquery.nicescroll.min.js"></script>
-        <script src="assets/jquery-cookie/jquery.cookie.js"></script>
+        <script>window.jQuery || document.write('<script src="<c:url value="/resources/admin/assets/jquery/jquery-2.0.3.min.js"/>"><\/script>')</script>
+        <script src="<c:url value="/resources/admin/assets/assets/bootstrap/js/bootstrap.min.js"/>"></script>
+        <script src="<c:url value="/resources/admin/assets/nicescroll/jquery.nicescroll.min.js"/>"></script>
+        <script src="<c:url value="/resources/admin/assets/jquery-cookie/jquery.cookie.js"/>"></script>
 
         <!--page specific plugin scripts-->
-        <script type="text/javascript" src="assets/chosen-bootstrap/chosen.jquery.min.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>
-        <script type="text/javascript" src="assets/jquery-tags-input/jquery.tagsinput.min.js"></script>
-        <script type="text/javascript" src="assets/jquery-pwstrength/jquery.pwstrength.min.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-duallistbox/duallistbox/bootstrap-duallistbox.js"></script>
-        <script type="text/javascript" src="assets/dropzone/downloads/dropzone.min.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
-        <script type="text/javascript" src="assets/clockface/js/clockface.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-daterangepicker/date.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-daterangepicker/daterangepicker.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-switch/static/js/bootstrap-switch.js"></script>
-        <script type="text/javascript" src="assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
-        <script type="text/javascript" src="assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
-        <script type="text/javascript" src="assets/ckeditor/ckeditor.js"></script> 
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/chosen-bootstrap/chosen.jquery.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-inputmask/bootstrap-inputmask.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/jquery-tags-input/jquery.tagsinput.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/jquery-pwstrength/jquery.pwstrength.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-fileupload/bootstrap-fileupload.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-duallistbox/duallistbox/bootstrap-duallistbox.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/dropzone/downloads/dropzone.min.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-timepicker/js/bootstrap-timepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/clockface/js/clockface.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-daterangepicker/date.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-daterangepicker/daterangepicker.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-switch/static/js/bootstrap-switch.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"/>"></script> 
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"/>"></script>
+        <script type="text/javascript" src="<c:url value="/resources/admin/assets/ckeditor/ckeditor.js"/>"></script> 
 
         <!--flaty scripts-->
-        <script src="js/flaty.js"></script>
+        <script src="<c:url value="/resources/admin/js/flaty.js"/>"></script>
 
     </body>
 </html>
