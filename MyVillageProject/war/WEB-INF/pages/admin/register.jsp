@@ -217,7 +217,7 @@
 
                         <li class="notify">
                             <a href="#">
-                                <img src="img/demo/avatar/avatar2.jpg" alt="Alex" />
+                                <img src="<c:url value="/resources/admin/img/demo/avatar/avatar2.jpg"/>" alt="Alex" />
                                 <p>David would like to become moderator.</p>
                             </a>
                         </li>
@@ -261,7 +261,7 @@
 
                         <li class="msg">
                             <a href="#">
-                                <img src="img/demo/avatar/avatar3.jpg" alt="Sarah's Avatar" />
+                                <img src="<c:url value="/resources/admin/img/demo/avatar/avatar3.jpg"/>" alt="Sarah's Avatar" />
                                 <div>
                                     <span class="msg-title">Sarah</span>
                                     <span class="msg-time">
@@ -275,7 +275,7 @@
 
                         <li class="msg">
                             <a href="#">
-                                <img src="img/demo/avatar/avatar4.jpg" alt="Emma's Avatar" />
+                                <img src="<c:url value="/resources/admin/img/demo/avatar/avatar4.jpg"/>" alt="Emma's Avatar" />
                                 <div>
                                     <span class="msg-title">Emma</span>
                                     <span class="msg-time">
@@ -289,7 +289,7 @@
 
                         <li class="msg">
                             <a href="#">
-                                <img src="img/demo/avatar/avatar5.jpg" alt="John's Avatar" />
+                                <img src="<c:url value="/resources/admin/img/demo/avatar/avatar5.jpg"/>" alt="John's Avatar" />
                                 <div>
                                     <span class="msg-title">John</span>
                                     <span class="msg-time">
@@ -312,7 +312,7 @@
                 <!-- BEGIN Button User -->
                 <li class="user-profile">
                     <a data-toggle="dropdown" href="#" class="user-menu dropdown-toggle">
-                        <img class="nav-user-photo" src="img/demo/avatar/avatar1.jpg" alt="Penny's Photo" />
+                        <img class="nav-user-photo" src="<c:url value="/resources/admin/img/demo/avatar/avatar1.jpg"/>" alt="Penny's Photo" />
                         <span class="hidden-sm" id="user_info">
                             Penny
                         </span>

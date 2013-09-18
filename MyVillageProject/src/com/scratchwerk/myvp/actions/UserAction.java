@@ -40,7 +40,7 @@ public class UserAction {
  
 		VillageMember vm = new VillageMember();
 		model.addAttribute("member", vm);
-		return "admin/login";
+		return "admin/userlogin";
  
 	}
 	
@@ -49,6 +49,14 @@ public class UserAction {
  
 		//model.addAttribute("id", id);
 		return "index";
+ 
+	}
+	
+	@RequestMapping(value="/admin/home", method = RequestMethod.GET)
+	public String adminHome(ModelMap model) {
+ 
+		//model.addAttribute("id", id);
+		return "admin/index";
  
 	}
 	
