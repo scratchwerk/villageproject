@@ -116,7 +116,6 @@
                     </div>
                 </div>
                 <div class="form-group">
-                                      <label class="col-sm-3 col-lg-2 control-label">Custom Dropdown</label>
                                       <div class="col-sm-9 col-lg-10 controls">
                                          <select class="form-control  chosen" data-placeholder="Choose a Category" tabindex="1">
                                             <option value=""> </option>
