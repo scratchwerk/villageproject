@@ -16,7 +16,7 @@
 							</div>
 							<h1 class="title"><a href="post.html" title="Featured article">Featured article</a></h1>
 							<div class="content">
-								<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae in ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. <a href="post.html" class="more">Read more</a></p>
+								<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae in ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. <a href="post.html">Read more</a></p>
 							</div>
 						</section>
 						<ul class="meta">
@@ -59,13 +59,15 @@
 					<ul>
 						<li class="column">
 							<img src="data/img/icons/32/shipping.png" alt="" class="icon" />
-							<h1>Donations</h1>
-							<p>Consectetuer, exquo novum saperet fierent. Nobis dehhag asilenit novim. Nosed denique um, sedsit theophrastus, cumei graeci discere impeditus ad tesmel. <a href="#_" class="more">More</a></p>
+							<h1>Giving</h1>
+							<!--<p>Consectetuer, exquo novum saperet fierent. Nobis dehhag asilenit novim. Nosed denique um, sedsit theophrastus, cumei graeci discere impeditus ad tesmel. <a href="/about/contact" class="more">More</a></p>-->
+							<p>Using community networks to organize and assistance where it is needed.<a href="/about/contact" class="more">More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/bestseller.png" alt="" class="icon" />
 							<h1>Recognition</h1>
-							<p>Eum idiudicabit nadeo sedvel duis voluptaria ne. Eum idiudicabit no sed denique mnesarchum, seicad nemis iudicicaabit theophrastus, cumeipria nicae eum ididicabit. <a href="#_" class="more">More</a></p>
+							<!--<p>Eum idiudicabit nadeo sedvel duis voluptaria ne. Eum idiudicabit no sed denique mnesarchum, seicad nemis iudicicaabit theophrastus, cumeipria nicae eum ididicabit. <a href="#_" class="more">More</a></p>-->
+							<p>Students are exposed to so many negative images of what success looks like.  MyVillage Project aims to highlight and showcase those students that are excelling academically. <a href="#_" class="more">More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/customers.png" alt="" class="icon" />
