@@ -12,7 +12,7 @@
 								<h2>we should, we can<br />we will</h2>
 							</hgroup>
 						</li>
-						<li class="small widget widget-twitter" data-username="ronnieking" data-count="2">
+						<li class="small widget widget-twitter" data-username="Soledad_OBrien" data-count="2">
 							<h1>Latest tweets</h1>
 							<div class="tweets"></div>
 						</li>

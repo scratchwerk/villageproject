@@ -28,7 +28,7 @@ public class UserAction {
 		String password = member.getPassword();
 		if(!(username.equals("rking") && password.equals("testing"))){
 			model.addAttribute("member", member);
-			return "admin/login";
+			return "admin/userlogin";
 		}
 		
 		return "admin/index";

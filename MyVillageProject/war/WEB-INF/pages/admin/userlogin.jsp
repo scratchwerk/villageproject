@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Login - FLATY Admin</title>
+        <title>Login - MyVillage Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,17 +30,17 @@
         <!-- BEGIN Main Content -->
         <div class="login-wrapper">
             <!-- BEGIN Login Form -->
-            <form id="form-login" action="index.html" method="get">
+            <form:form id="form-login" modelAttribute="member" method="POST" action="/user/login">
                 <h3>Login to your account</h3>
                 <hr/>
                 <div class="form-group">
                     <div class="controls">
-                        <input type="text" placeholder="Username" class="form-control" />
+                        <form:input path="username" class="input-block-level" placeholder="Username"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="controls">
-                        <input type="password" placeholder="Password" class="form-control" />
+                        <form:input type="password" path="password" class="input-block-level" placeholder="Password"/>
                     </div>
                 </div>
                 <div class="form-group">
@@ -60,7 +60,7 @@
                     <a href="#" class="goto-forgot pull-left">Forgot Password?</a>
                     <a href="#" class="goto-register pull-right">Sign up now</a>
                 </p>
-            </form>
+            </form:form>
             <!-- END Login Form -->
 
             <!-- BEGIN Forgot Password Form -->

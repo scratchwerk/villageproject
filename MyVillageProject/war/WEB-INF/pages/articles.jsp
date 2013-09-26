@@ -11,15 +11,14 @@
 					<!-- Link post -->
 					<article class="post link">
 						<section class="main">
-							<h1 class="title"><a href="post.html" title="This is link post type">This is link post type</a></h1>
+							<h1 class="title"><a href="http://jacksonville.com/news/metro/2013-09-23/story/lee-high-newest-oldest-high-school-jacksonville-after-35-million" title="This is link post type">Lee High School gets a $35 million renovation</a></h1>
 							<div class="content">
 								<p>Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
 							</div>
 						</section>
 						<ul class="meta">
-							<li class="comments"><a href="#_">7 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 17, 2011</a></li>
+							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">jacksonville.com</a></li>
+							<li class="date"><a href="#_">September 24, 2013</a></li>
 							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
 							<li class="link"><a href="post.html">Permalink</a></li>
 						</ul>
@@ -31,7 +30,7 @@
 						<section class="main">
 							<h1 class="title"><a href="post.html" title="Video post with an external player">Video post with an external player</a></h1>
 							<div class="featured">
-								<iframe src="http://player.vimeo.com/video/29739725?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+								<iframe width="400" height="225" src="//www.youtube.com/embed/Cxo1ditG5eA" frameborder="0"></iframe>
 							</div>
 						</section>
 						<ul class="meta">
@@ -126,6 +125,11 @@
 						<li class="widget widget-flickr" data-id="52617155@N08" data-count="8">
 							<h1>Photo stream</h1>
 							<ul class="photos"></ul>
+						</li>
+						<li>
+							<a href="banners_one_two.html">
+								<img src="../content/featured01.jpg" class="responsive" alt="" />
+							</a>
 						</li>
 						
 					</ul>

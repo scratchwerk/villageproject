@@ -1,10 +1,16 @@
 package com.scratchwerk.vp.models;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Event {
+import com.google.appengine.api.datastore.Key;
+
+public class Event implements Serializable{
 	
-	private int id;
+	
+	private static final long serialVersionUID = -5327566248002296042L;
+	
+	private Key id;
 	private String name;
 	private Date date;
 	private Organization organizaer;
@@ -17,6 +23,7 @@ public class Event {
 	private boolean isOneTime = false;
 	private boolean isClub = false;
 	private boolean isSupport = false;
+	
 	
 	
 }

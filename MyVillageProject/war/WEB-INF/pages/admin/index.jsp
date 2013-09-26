@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dashboard - FLATY Admin</title>
+        <title>Dashboard - MyVillage Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -33,21 +33,21 @@
                 <li>
                     <span>Skin</span>
                     <ul class="colors" data-target="body" data-prefix="skin-">
-                        <li class="active"><a class="blue" href="#"></a></li>
+                        <li><a class="blue" href="#"></a></li>
                         <li><a class="red" href="#"></a></li>
                         <li><a class="green" href="#"></a></li>
                         <li><a class="orange" href="#"></a></li>
                         <li><a class="yellow" href="#"></a></li>
                         <li><a class="pink" href="#"></a></li>
                         <li><a class="magenta" href="#"></a></li>
-                        <li><a class="gray" href="#"></a></li>
+                        <li class="active"><a class="gray" href="#"></a></li>
                         <li><a class="black" href="#"></a></li>
                     </ul>
                 </li>
                 <li>
                     <span>Navbar</span>
                     <ul class="colors" data-target="#navbar" data-prefix="navbar-">
-                        <li class="active"><a class="blue" href="#"></a></li>
+                        <li><a class="blue" href="#"></a></li>
                         <li><a class="red" href="#"></a></li>
                         <li><a class="green" href="#"></a></li>
                         <li><a class="orange" href="#"></a></li>
@@ -55,20 +55,20 @@
                         <li><a class="pink" href="#"></a></li>
                         <li><a class="magenta" href="#"></a></li>
                         <li><a class="gray" href="#"></a></li>
-                        <li><a class="black" href="#"></a></li>
+                        <li class="active"><a class="black" href="#"></a></li>
                     </ul>
                 </li>
                 <li>
                     <span>Sidebar</span>
                     <ul class="colors" data-target="#main-container" data-prefix="sidebar-">
-                        <li class="active"><a class="blue" href="#"></a></li>
+                        <li><a class="blue" href="#"></a></li>
                         <li><a class="red" href="#"></a></li>
                         <li><a class="green" href="#"></a></li>
                         <li><a class="orange" href="#"></a></li>
                         <li><a class="yellow" href="#"></a></li>
                         <li><a class="pink" href="#"></a></li>
                         <li><a class="magenta" href="#"></a></li>
-                        <li><a class="gray" href="#"></a></li>
+                        <li class="active"><a class="gray" href="#"></a></li>
                         <li><a class="black" href="#"></a></li>
                     </ul>
                 </li>
@@ -89,7 +89,7 @@
             <a class="navbar-brand" href="#">
                 <small>
                     <i class="icon-desktop"></i>
-                    FLATY Admin
+                    MyVillage Admin
                 </small>
             </a>
 
