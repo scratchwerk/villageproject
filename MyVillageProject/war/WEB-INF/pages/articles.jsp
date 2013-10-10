@@ -20,7 +20,7 @@
 							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">jacksonville.com</a></li>
 							<li class="date"><a href="#_">September 24, 2013</a></li>
 							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
+							<!--<li class="link"><a href="post.html">Permalink</a></li>-->
 						</ul>
 					</article>
 					<!-- // Link post -->
@@ -28,22 +28,38 @@
 					<!-- Video post -->
 					<article class="post video">
 						<section class="main">
-							<h1 class="title"><a href="post.html" title="Video post with an external player">Video post with an external player</a></h1>
+							<h1 class="title"><a href="post.html" title="Day in the Real World">Day in the Real World</a></h1>
 							<div class="featured">
 								<iframe width="400" height="225" src="//www.youtube.com/embed/Cxo1ditG5eA" frameborder="0"></iframe>
 							</div>
 						</section>
 						<ul class="meta">
-							<li class="comments"><a href="#_">14 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 21, 2011</a></li>
+							<li class="author"><a href="http://www.dayintherealworld.com">DITRW</a></li>
+							<li class="date"><a href="#_">October 3, 2013</a></li>
 							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
 							<li class="link"><a href="post.html">Permalink</a></li>
 						</ul>
 					</article>
 					<!-- // Video post -->
 
-					<!-- Audio post -->
+					<!-- Link post -->
+					<article class="post link">
+						<section class="main">
+							<h1 class="title"><a href="http://jacksonville.com/news/metro/2013-09-23/story/lee-high-newest-oldest-high-school-jacksonville-after-35-million" title="This is link post type"></a></h1>
+							<div class="content">
+								<p>Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
+							</div>
+						</section>
+						<ul class="meta">
+							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">jacksonville.com</a></li>
+							<li class="date"><a href="#_">September 24, 2013</a></li>
+							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
+							<!--<li class="link"><a href="post.html">Permalink</a></li>-->
+						</ul>
+					</article>
+					<!-- // Link post -->
+					
+					<!-- Audio post
 					<article class="post audio">
 						<section class="main">
 							<h1 class="title"><a href="post.html" title="Audio post with a built-in player">Audio post with a&nbsp;built-in player</a></h1>
@@ -69,7 +85,7 @@
 							<li class="link"><a href="post.html">Permalink</a></li>
 						</ul>
 					</article>
-					<!-- // Audio post -->
+					 Audio post -->
 
 					<!-- Default post -->
 					<article class="post default">

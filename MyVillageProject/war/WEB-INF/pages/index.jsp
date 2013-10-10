@@ -12,20 +12,20 @@
 					<article class="post default">
 						<section class="main clear">
 							<div class="featured">
-								<a href="post.html"><img src="content/featured01.jpg" class="responsive" alt="" /></a>
+								<a href="post.html"><img src="content/featured02.jpg" width="500px" class="responsive" alt="" /></a>
 							</div>
-							<h1 class="title"><a href="post.html" title="Featured article">Featured article</a></h1>
+							<h1 class="title"><a href="post.html" title="Featured article">Defining Teamwork</a></h1>
 							<div class="content">
-								<p>Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae in ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo. <a href="post.html">Read more</a></p>
+								<p>Welcome to the MyVillage Project!  The old African proverb states that "it takes a village to raise a child".  While the physical make-up of our communities may have change, the logic remains the same.  It is the goal of the MyVillage Project is to foster community teamwork among all the entities that affect the youth in our communities.  We aim to keep you informed, educated, and connected.  Parents can research programs, news, and events that can assist their students.  To raise a ready child, it will take the parent, mentor, pastor, teacher, neighbor, coach, fraternity, sorority, organization, and you!  We are excited to have you join the village.<a href="post.html">Read more</a></p>
 							</div>
 						</section>
-						<ul class="meta">
+						<!--<ul class="meta">
 							<li class="comments"><a href="#_">18 Villagers Attended</a></li>
 							<li class="author"><a href="#">Mentoring Families and Kids</a></li>
 							<li class="date"><a href="#_">June 28, 2013</a></li>
 							<li class="category"><a href="#_">Education</a>, <a href="#_">STEM</a></li>
 							<li class="link"><a href="post.html">Link</a></li>
-						</ul>
+						</ul>-->
 					</article>
 					<!-- // Default post with image -->
 
@@ -44,9 +44,13 @@
 								</div>
 							</form>
 						</li>
-						<li class="widget widget-flickr" data-id="52617155@N08" data-count="12">
+						<!--<li class="widget widget-flickr" data-id="104838494@N07" data-count="12">
 							<h1>Photo stream</h1>
 							<ul class="photos"></ul>
+						</li>-->
+						<!-- SnapWidget -->
+						<li>
+						<iframe src="http://snapwidget.com/in/?u=bXl2aWxsYWdlcHJvamVjdHxpbnw0Mnw0fDN8fG5vfDEyfGZhZGVPdXR8b25TdGFydHxubw==&v=91013" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:216px; height: 162px" ></iframe>
 						</li>
 					</ul>
 
@@ -61,7 +65,7 @@
 							<img src="data/img/icons/32/shipping.png" alt="" class="icon" />
 							<h1>Giving</h1>
 							<!--<p>Consectetuer, exquo novum saperet fierent. Nobis dehhag asilenit novim. Nosed denique um, sedsit theophrastus, cumei graeci discere impeditus ad tesmel. <a href="/about/contact" class="more">More</a></p>-->
-							<p>Using community networks to organize and assistance where it is needed.<a href="/about/contact" class="more">More</a></p>
+							<p>Fundraising Using community networks to organize and assistance where it is needed.    <a href="/about/contact">More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/bestseller.png" alt="" class="icon" />
