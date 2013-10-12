@@ -65,23 +65,23 @@
 							<img src="data/img/icons/32/shipping.png" alt="" class="icon" />
 							<h1>Giving</h1>
 							<!--<p>Consectetuer, exquo novum saperet fierent. Nobis dehhag asilenit novim. Nosed denique um, sedsit theophrastus, cumei graeci discere impeditus ad tesmel. <a href="/about/contact" class="more">More</a></p>-->
-							<p>Fundraising Using community networks to organize and assistance where it is needed.    <a href="/about/contact">More</a></p>
+							<p>Using community networks to organize assistance where it is needed.  Finding unique ways to establish fundraising opportunities for all organizations who's mission is to improve our youth. <a href="/about/contact">More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/bestseller.png" alt="" class="icon" />
 							<h1>Recognition</h1>
 							<!--<p>Eum idiudicabit nadeo sedvel duis voluptaria ne. Eum idiudicabit no sed denique mnesarchum, seicad nemis iudicicaabit theophrastus, cumeipria nicae eum ididicabit. <a href="#_" class="more">More</a></p>-->
-							<p>Students are exposed to so many negative images of what success looks like.  MyVillage Project aims to highlight and showcase those students that are excelling academically. <a href="#_" class="more">More</a></p>
+							<p>Students are exposed to so many negative images of what success looks like.  MyVillage Project aims to highlight and showcase those students that are excelling academically. <a href="#_" >More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/customers.png" alt="" class="icon" />
 							<h1>Community</h1>
-							<p>Suscipiantur consetuer, exquo sacrem saperet fierentens. Conse ctetuer, exquo novum satepor fierent. Nobis dehhag asilenit novim. Nosed denique umtheos. <a href="#_" class="more">More</a></p>
+							<p>It takes a village to raise a child.  Community networking is a critical component as it relates to youth programming.  This starts with simple information sharing. <a href="#_">More</a></p>
 						</li>
 						<li class="column">
 							<img src="data/img/icons/32/communication.png" alt="" class="icon" />
 							<h1>Tracking</h1>
-							<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus. <a href="#_" class="more">More</a></p>
+							<p>Connecting programs to results is the goal of many volunteer efforts.  The MyVillage Project attempts to filter the "feel good" programs from those that have significant impacts in the lives of our youth. <a href="#_">More</a></p>
 						</li>
 					</ul>
 				</section>

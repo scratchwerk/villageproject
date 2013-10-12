@@ -75,7 +75,7 @@
 					<nav id="nav-top" class="clear left">
 						<ul>
 							<li>
-								<a href="#" title="City">Select a city</a>
+								<a href="#">Select a city</a>
 								<ul>
 									<li><a href="/1">Jacksonville</a></li>
 									<li><a href="/2">Gainesville</a></li>
