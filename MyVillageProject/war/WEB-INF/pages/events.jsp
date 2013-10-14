@@ -30,7 +30,7 @@
 								</a>
 							</div>
 							<section class="main">
-								<h1 class="title"><a href="portfolio_item_slider.html" title="Optional title">Optional title</a></h1>
+								<h1 class="title"><a href="portfolio_item_slider.html" title="Optional title">Black Male Think Tank</a></h1>
 								<div class="content">
 									<p>Etiam ultricies nisi vel augue. Curabitur ullamc orper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
 									<p class="tags">

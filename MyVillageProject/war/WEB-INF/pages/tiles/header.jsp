@@ -135,12 +135,12 @@
 					<ul>
 						<li><a href="/" title="Home">Home</a></li>
 						<li>
-							<a title="Features">News</a>
-							<ul>
+							<a href="/news/view" title="Features">News</a>
+							<!--<ul>
 								<li><a href="/news/view" title="Articles">Articles</a></li>
 								<li><a href="/news/photos" title="Photos">Photos</a></li>								
-								<!--<li><a href="/news/awards" title="Awards">Awards</a></li>-->
-							</ul>
+								<li><a href="/news/awards" title="Awards">Awards</a></li>
+							</ul>-->
 						</li>
 						<li><a href="/myvillage/home" title="Portfolios">MyVillage</a></li>
 						<!--<li><a href="donate.html" title="Donate">Donate</a></li>-->

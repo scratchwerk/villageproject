@@ -9,17 +9,17 @@
 				<section id="content" class="alpha">
 
 					<!-- Link post -->
-					<article class="post link">
+					<article class="post default">
 						<section class="main">
-							<h1 class="title"><a href="http://jacksonville.com/news/metro/2013-09-23/story/lee-high-newest-oldest-high-school-jacksonville-after-35-million" title="This is link post type">Lee High School gets a $35 million renovation</a></h1>
+							<h1 class="title"><a href="http://jacksonville.com/news/metro/2013-09-23/story/lee-high-newest-oldest-high-school-jacksonville-after-35-million" title="This is link post type">Lee High gets renovation</a></h1>
 							<div class="content">
-								<p>Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
+								<p>Robert Lee High School, in the middle of a school name debate, gets an incredible $35 million makeover.</p>
 							</div>
 						</section>
 						<ul class="meta">
 							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">jacksonville.com</a></li>
 							<li class="date"><a href="#_">September 24, 2013</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
+							<li class="category"><a href="#_">Category Education</a></li>
 							<!--<li class="link"><a href="post.html">Permalink</a></li>-->
 						</ul>
 					</article>
@@ -36,7 +36,7 @@
 						<ul class="meta">
 							<li class="author"><a href="http://www.dayintherealworld.com">DITRW</a></li>
 							<li class="date"><a href="#_">October 3, 2013</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
+							<li class="category"><a href="#_">Category Education</a></li>
 							<li class="link"><a href="post.html">Permalink</a></li>
 						</ul>
 					</article>
@@ -45,16 +45,16 @@
 					<!-- Link post -->
 					<article class="post link">
 						<section class="main">
-							<h1 class="title"><a href="http://jacksonville.com/news/metro/2013-09-23/story/lee-high-newest-oldest-high-school-jacksonville-after-35-million" title="This is link post type"></a></h1>
+							<h1 class="title"><a href="/data/news/JaxAchieversNomination2013.pdf" title="Jax Achievers">Jacksonville Achievers 2013 Applications</a></h1>
 							<div class="content">
-								<p>Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
+								<p>The National PanHellenic Council (NPHC) will be recognizing some of the First Coast's best and brightest students in 2nd Annual Jacksonville Achievers.  NPHC represents the nine historically black fraternities and sororities.  The Jacksonville Achievers recognizes boys and girls in grades 5-12 who have shown excellence in the classroom.  Applications are due by Nov 1st.</p>
 							</div>
 						</section>
 						<ul class="meta">
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">jacksonville.com</a></li>
+							<li class="author"><a href="http://www.firstcoastnphc.com">First Coast NPHC</a></li>
 							<li class="date"><a href="#_">September 24, 2013</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<!--<li class="link"><a href="post.html">Permalink</a></li>-->
+							<li class="category"><a href="#_">Category Scholarship</a></li>
+							<li class="link"><a href="/data/news/JaxAchievers2013Good.pdf">2012 Achievers</a></li>
 						</ul>
 					</article>
 					<!-- // Link post -->
@@ -90,18 +90,16 @@
 					<!-- Default post -->
 					<article class="post default">
 						<section class="main">
-							<h1 class="title"><a href="post.html" title="Default post">Default post</a></h1>
+							<h1 class="title"><a href="http://jacksonville.com/opinion/blog/403455/matt-dixon/2013-10-11/major-political-parties-each-receive-roughly-30" title="Political Contributions">Big Business Give Big Political Funds</a></h1>
 							<div class="content">
-								<p>Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.</p>
-								<p>Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. <a href="post.html" class="more">Read more</a></p>
+								<p>Politics, business, and money typically go hand in hand.  But as seen in recent campaign finance reports, big bussiness's role in politics is becoming more and more prevelant. </p>
+							
 							</div>
 						</section>
 						<ul class="meta">
-							<li class="comments"><a href="#_">1 comments</a></li>
-							<li class="author"><a href="http://themeforest.net/user/kubasto/?ref=kubasto">kubasto</a></li>
-							<li class="date"><a href="#_">October 15, 2011</a></li>
-							<li class="category"><a href="#_">Category one</a>, <a href="#_">two</a></li>
-							<li class="link"><a href="post.html">Permalink</a></li>
+							<li class="author"><a href="http://www.jacksonville.com">jacksonville.com</a></li>
+							<li class="date"><a href="#_">October 15, 2013</a></li>
+							<li class="category"><a href="#_">Category Opinion</a>, <a href="#_">Politics</a></li>
 						</ul>
 					</article>
 					<!-- // Default post -->
@@ -138,9 +136,9 @@
 								<li><a href="#_">March 2013</a></li>
 							</ul>
 						</li>
-						<li class="widget widget-flickr" data-id="52617155@N08" data-count="8">
-							<h1>Photo stream</h1>
-							<ul class="photos"></ul>
+						<!-- SnapWidget -->
+						<li>
+						<iframe src="http://snapwidget.com/in/?u=bXl2aWxsYWdlcHJvamVjdHxpbnw0Mnw0fDN8fG5vfDEyfGZhZGVPdXR8b25TdGFydHxubw==&v=91013" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:216px; height: 162px" ></iframe>
 						</li>
 						<li>
 							<a href="banners_one_two.html">
